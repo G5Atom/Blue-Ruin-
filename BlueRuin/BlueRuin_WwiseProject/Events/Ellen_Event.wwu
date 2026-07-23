@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4008E6A-E250-44DF-84EA-C1E590537084}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ellen_Event" ID="{C4008E6A-E250-44DF-84EA-C1E590537084}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>
