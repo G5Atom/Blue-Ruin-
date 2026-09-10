@@ -8,6 +8,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Underwater" ID="{1CA9CD43-BA2D-4E17-B55A-13EDBE2E2A5E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Underwater" ID="{A02D8B91-3597-41CE-9F80-FD7C1271AAD3}" WorkUnitID="{31F46C03-FF99-412F-A8D6-CA0CE488E132}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
