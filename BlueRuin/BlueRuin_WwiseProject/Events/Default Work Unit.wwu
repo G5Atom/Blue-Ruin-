@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{382401D4-3307-45E5-9F4F-B8F968D5D950}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{382401D4-3307-45E5-9F4F-B8F968D5D950}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{382401D4-3307-45E5-9F4F-B8F968D5D950}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Atmos" ID="{31F46C03-FF99-412F-A8D6-CA0CE488E132}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -3,11 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A60C896D-97BA-4E5D-B320-33F8C49AC1EF}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main_Sound_Bank" ID="{DE4FC0CD-8747-4328-A6A5-83B6612D1126}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
+				<WorkUnit Name="Atmos" ID="{21273794-3940-455E-95A6-1A8B88F53ABD}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

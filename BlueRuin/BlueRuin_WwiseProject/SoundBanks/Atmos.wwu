@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21273794-3940-455E-95A6-1A8B88F53ABD}" SchemaVersion="123" RootDocumentID="{A60C896D-97BA-4E5D-B320-33F8C49AC1EF}" ParentDocumentID="{A60C896D-97BA-4E5D-B320-33F8C49AC1EF}">
+	<SoundBanks>
+		<WorkUnit Name="Atmos" ID="{21273794-3940-455E-95A6-1A8B88F53ABD}" OwnerID="{A60C896D-97BA-4E5D-B320-33F8C49AC1EF}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Main_Sound_Bank" ID="{DE4FC0CD-8747-4328-A6A5-83B6612D1126}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Underwater" ID="{1CA9CD43-BA2D-4E17-B55A-13EDBE2E2A5E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Underwater" ID="{A02D8B91-3597-41CE-9F80-FD7C1271AAD3}" WorkUnitID="{31F46C03-FF99-412F-A8D6-CA0CE488E132}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

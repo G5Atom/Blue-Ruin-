@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{31F46C03-FF99-412F-A8D6-CA0CE488E132}" SchemaVersion="123" RootDocumentID="{382401D4-3307-45E5-9F4F-B8F968D5D950}" ParentDocumentID="{382401D4-3307-45E5-9F4F-B8F968D5D950}">
+	<Events>
+		<WorkUnit Name="Atmos" ID="{31F46C03-FF99-412F-A8D6-CA0CE488E132}" OwnerID="{382401D4-3307-45E5-9F4F-B8F968D5D950}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Underwater" ID="{A02D8B91-3597-41CE-9F80-FD7C1271AAD3}">
+					<ChildrenList>
+						<Action Name="" ID="{B2A29131-7630-43DD-81AD-883EBA509E17}" ShortID="632818259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Blend Container" ID="{6E74CA89-E256-4110-8DC1-7C8E177B51D0}" WorkUnitID="{D1C414C1-EDC4-4BE2-8144-0656F4E7E9BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
