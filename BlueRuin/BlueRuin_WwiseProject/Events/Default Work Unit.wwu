@@ -14,6 +14,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PLAY_MAINLOOP" ID="{4684D762-677C-4821-AEB3-7D7E0E2AF2F7}">
+					<ChildrenList>
+						<Action Name="" ID="{F5F536E2-5236-4175-BC6D-B32B8775D7BF}" ShortID="536812991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_LOOP" ID="{938A7F97-BC93-4C8E-9DC8-B7112C38001E}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_CAVES" ID="{E8819487-9E2D-410D-947A-B9F92FE4CA6A}">
+					<ChildrenList>
+						<Action Name="" ID="{D2AA8069-2B04-42EC-BDA7-6CB0502DC918}" ShortID="226563384">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_STING_STARTGAME" ID="{D92ED42A-8A9D-4969-A954-0D4639433C54}">
+					<ChildrenList>
+						<Action Name="" ID="{65D43558-FD66-45BD-9DDC-A4953A9A0B2C}" ShortID="374878954">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLAYGAME" ID="{5EA1890E-2790-4550-B1C1-F3238958D0FE}" WorkUnitID="{A572E6BF-5BCA-438B-B2E3-5CDB03B4E86A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_STING_DEATH" ID="{67467C75-3CC5-4D11-B94A-F0B5038BE6EC}">
+					<ChildrenList>
+						<Action Name="" ID="{453744FA-7ADF-422F-983E-24C58A1B5CF1}" ShortID="271575510">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LOW OXYGEN_55" ID="{11E83DBF-2701-4380-8EEB-80E0A7F24DF7}" WorkUnitID="{A572E6BF-5BCA-438B-B2E3-5CDB03B4E86A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
