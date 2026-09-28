@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AAD30496-6F29-461B-B1D5-CC23F530F82F}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{AAD30496-6F29-461B-B1D5-CC23F530F82F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AAD30496-6F29-461B-B1D5-CC23F530F82F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="MSC_GAMEMUSIC" ID="{7C2946D7-8B00-48AA-8B41-AB5B89DA529D}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

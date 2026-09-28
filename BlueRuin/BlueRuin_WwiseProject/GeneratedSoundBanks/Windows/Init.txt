@@ -1,3 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	89505537	GAMEPLAY			\Default Work Unit\MUSIC\GAMEPLAY	
+	3762137787	PLAYER_LIFE			\Default Work Unit\MUSIC\PLAYER_LIFE	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GAMEPLAY			
+	749373321	CAVES	GAMEPLAY			
+	2005704188	MAIN_MENU	GAMEPLAY			
+	3130520577	MAIN_LEVEL	GAMEPLAY			
+	655265632	Alive	PLAYER_LIFE			
+	748895195	None	PLAYER_LIFE			
+	2791675679	Defeated	PLAYER_LIFE			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
