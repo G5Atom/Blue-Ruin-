@@ -19,7 +19,30 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{64991FA2-2965-43F2-93B1-80BF7AF5D5D1}">
-											<TransitionInfo/>
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{910F631A-ADAF-4833-8411-294EB1D18F79}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{9A241A52-F123-4DC5-80FA-1315008948E3}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
@@ -511,7 +534,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{34963D3A-E6BC-40C9-8D64-EB499DC222EE}"/>
+													<MusicCue Name="Entry Cue" ID="{34963D3A-E6BC-40C9-8D64-EB499DC222EE}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="6611.95415613094"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -519,7 +546,7 @@
 													<MusicCue Name="Exit Cue" ID="{79CC497A-0012-443B-9B83-53CE297DC5D1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="244363.636363636"/>
+															<Property Name="TimeMs" Type="Real64" Value="233711.043556536"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -1267,6 +1294,78 @@
 						<ObjectList Name="Arguments">
 							<Reference>
 								<ObjectRef Name="GAMEPLAY" ID="{3EA64AE5-5FFA-4234-8520-86A599B8F677}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{C401336E-05DF-4C24-8B9A-B22C04909CD5}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{4052898E-D409-4F95-ADB6-1517D70B6709}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MAIN_LOOP" ID="{938A7F97-BC93-4C8E-9DC8-B7112C38001E}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{484A459B-0211-402A-877E-9EB5B1FDC0FF}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MAIN_MENU" ID="{51BFCA53-E643-4FAF-ABBA-1FB33541D8B1}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Stingers">
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{7A122DFC-DA33-4F42-8B4B-625EF6D3A99C}">
+										<ReferenceList>
+											<Reference Name="Segment">
+												<ObjectRef Name="LOW OXYGEN_55" ID="{11E83DBF-2701-4380-8EEB-80E0A7F24DF7}" WorkUnitID="{A572E6BF-5BCA-438B-B2E3-5CDB03B4E86A}"/>
+											</Reference>
+											<Reference Name="Trigger">
+												<ObjectRef Name="DEATHSTING" ID="{82372E88-7DB0-4F52-98A9-E6CA64BEB01E}" WorkUnitID="{C0428AB9-24B4-4438-8FB4-D4E25219BCB5}"/>
+											</Reference>
+										</ReferenceList>
+									</MusicStinger>
+								</Local>
 							</Reference>
 						</ObjectList>
 					</ObjectLists>

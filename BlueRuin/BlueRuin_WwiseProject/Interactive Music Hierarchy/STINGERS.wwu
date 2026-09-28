@@ -53,9 +53,11 @@
 															<Local>
 																<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{CE80E2DB-B832-476C-8D15-1803D9F0AEBC}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="6545.45454545455"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="-9290.05141114313"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="21339.0909158057"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="6545.45454545455"/>
+																		<Property Name="PlayAt" Type="Real64" Value="9290.05141114313"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{4F95F0B7-7D7F-46CD-A0A7-5546DE0E57C1}"/>
 																	<PropertyCurveList>
@@ -66,12 +68,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -85,12 +87,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -104,12 +106,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -164,9 +166,11 @@
 															<Local>
 																<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{58ADD149-60D2-4F3F-90E1-A112F0DB5F21}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="6545.45454545454"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="-9290.05141114313"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="21339.0909158057"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="4863.96619024401"/>
+																		<Property Name="PlayAt" Type="Real64" Value="9290.05141114313"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{799082D0-8E29-4358-8C02-4EBB11F95FAC}"/>
 																	<PropertyCurveList>
@@ -177,12 +181,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -196,12 +200,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -215,12 +219,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -275,9 +279,11 @@
 															<Local>
 																<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{A9206059-4A1B-40A2-96DB-E0C31D65CFE3}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="6545.45454545454"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="-9290.05141114313"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="21339.0909158057"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="3647.97464268301"/>
+																		<Property Name="PlayAt" Type="Real64" Value="9290.05141114313"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{3284808B-8EBA-4A39-BAC9-CB0D4538F57E}"/>
 																	<PropertyCurveList>
@@ -288,12 +294,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -307,12 +313,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -326,12 +332,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>0</XPos>
+																						<XPos>-9.29005</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>21.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -386,11 +392,11 @@
 															<Local>
 																<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{B24720C9-4E0C-4A0B-B6D3-AB96DCF3CE80}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="24000"/>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="30545.4545454545"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="14709.9485888569"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="45339.0909158056"/>
 																		<Property Name="FadeInDuration" Type="Real64" Value="1073.99260411588"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="4863.96619024402"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-24000"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-14709.9485888569"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{CE880811-CB78-433A-8BBB-015D8720F712}"/>
 																	<PropertyCurveList>
@@ -401,12 +407,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>24</XPos>
+																						<XPos>14.70995</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>30.54545</XPos>
+																						<XPos>45.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -420,12 +426,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>24</XPos>
+																						<XPos>14.70995</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>30.54545</XPos>
+																						<XPos>45.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -439,12 +445,12 @@
 																				</PropertyList>
 																				<PointList>
 																					<Point>
-																						<XPos>24</XPos>
+																						<XPos>14.70995</XPos>
 																						<YPos>0</YPos>
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>30.54545</XPos>
+																						<XPos>45.33909</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -499,7 +505,7 @@
 															<Local>
 																<MusicClip Name="EM_GG_BR_LowOxygenState_DeathStinger_220926" ID="{1979785C-5307-421D-B10E-D3FE18A613AF}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="6545.45454545454"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14910.9036834507"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="6545.45454545454"/>
 																	</PropertyList>
@@ -517,7 +523,7 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>14.9109</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -536,7 +542,7 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>14.9109</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
@@ -555,7 +561,7 @@
 																						<Flags>5</Flags>
 																					</Point>
 																					<Point>
-																						<XPos>6.54545</XPos>
+																						<XPos>14.9109</XPos>
 																						<YPos>0</YPos>
 																						<Flags>37</Flags>
 																					</Point>
