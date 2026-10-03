@@ -14,6 +14,17 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="MUSIC TEST 2" ID="{8007B613-4791-459E-9350-4DD409ACDE79}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MUSIC" ID="{BAACCC90-D22A-44E2-9D06-3D3103A29E07}" WorkUnitID="{382401D4-3307-45E5-9F4F-B8F968D5D950}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

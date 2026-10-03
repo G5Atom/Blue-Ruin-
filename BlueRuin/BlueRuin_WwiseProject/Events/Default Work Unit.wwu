@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DEATHSTING" ID="{82372E88-7DB0-4F52-98A9-E6CA64BEB01E}" WorkUnitID="{C0428AB9-24B4-4438-8FB4-D4E25219BCB5}"/>
+									<ObjectRef Name="DEATH_STING" ID="{3F495C9E-EDFB-4B25-BBFA-81F55AB2165F}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -33,6 +33,58 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MUSIC" ID="{84ACF3CB-3BE4-413F-8EFE-4137F5DFFC1B}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_SYING_ENTERCAVE" ID="{4461D1F3-0474-4D76-952F-8A4F99E2D686}">
+					<ChildrenList>
+						<Action Name="" ID="{2E597DBE-52AC-4C62-BD80-DE9FCD3A3D1E}" ShortID="35779101">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENTER_CAVE" ID="{9A3222A1-733D-4408-803C-6F47AA2F8756}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_STING_LEAVECAVE" ID="{3B314837-7A29-4742-8429-B4CEA589D97B}">
+					<ChildrenList>
+						<Action Name="" ID="{99AD0BE2-CF60-4F36-B407-FC38D3E804E9}" ShortID="178449112">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LEAVE_CAVE" ID="{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_STING_PLAYGAME" ID="{E8B89BC8-1245-42AE-9962-7302534061FF}">
+					<ChildrenList>
+						<Action Name="" ID="{EAEB2DD9-8ED9-4F0E-A4F7-EB1283A1E336}" ShortID="701397670">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_MENU" ID="{51BFCA53-E643-4FAF-ABBA-1FB33541D8B1}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2E60A3F1-1EE1-455F-8B1A-8447E4888F87}" ShortID="84846411">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLAY_GAME" ID="{D0FF0AE2-C71E-4201-827B-B93B68817C73}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

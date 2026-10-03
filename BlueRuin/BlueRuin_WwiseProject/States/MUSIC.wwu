@@ -9,6 +9,8 @@
 						<State Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
 						<State Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
 						<State Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
+						<State Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
+						<State Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -32,6 +34,18 @@
 						<Transition>
 							<StartState Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
 							<EndState Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
+							<EndState Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
+							<EndState Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
 							<Time>5</Time>
 							<IsShared>false</IsShared>
 						</Transition>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26277567-4551-43DD-B3E3-D08D5272627F}" SchemaVersion="123">
+	<Triggers>
+		<WorkUnit Name="MUSIC" ID="{26277567-4551-43DD-B3E3-D08D5272627F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="DEATH_STING" ID="{3F495C9E-EDFB-4B25-BBFA-81F55AB2165F}"/>
+				<Trigger Name="PLAY_GAME" ID="{D0FF0AE2-C71E-4201-827B-B93B68817C73}"/>
+				<Trigger Name="ENTER_CAVE" ID="{9A3222A1-733D-4408-803C-6F47AA2F8756}"/>
+				<Trigger Name="LEAVE_CAVE" ID="{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C0428AB9-24B4-4438-8FB4-D4E25219BCB5}" SchemaVersion="123">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{C0428AB9-24B4-4438-8FB4-D4E25219BCB5}" PersistMode="Standalone">
-			<ChildrenList>
-				<Trigger Name="DEATHSTING" ID="{82372E88-7DB0-4F52-98A9-E6CA64BEB01E}"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{C0428AB9-24B4-4438-8FB4-D4E25219BCB5}" PersistMode="Standalone"/>
 	</Triggers>
 </WwiseDocument>

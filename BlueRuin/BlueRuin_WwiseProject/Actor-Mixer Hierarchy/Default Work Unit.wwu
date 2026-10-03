@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="EM_BlueRuin_MX_TranstoCave_270926" ID="{54813B92-168C-439F-8FCB-C4940397FD05}" ShortID="492421720">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EM_BlueRuin_MX_TranstoCave_270926" ID="{B676618F-85DC-4D82-A968-2FA1341E78E2}">
+							<Language>SFX</Language>
+							<AudioFile>EM_BlueRuin_MX_TranstoCave_270926.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="579577285"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="EM_BlueRuin_MX_TranstoCave_270926" ID="{B676618F-85DC-4D82-A968-2FA1341E78E2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
