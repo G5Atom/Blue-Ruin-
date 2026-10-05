@@ -25,14 +25,13 @@
 											<PropertyList>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 											</PropertyList>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{910F631A-ADAF-4833-8411-294EB1D18F79}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="1"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -40,11 +39,216 @@
 												<DestinationFadeIn>
 													<MusicFade Name="Destination Fade-in" ID="{9A241A52-F123-4DC5-80FA-1315008948E3}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-3"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{37E6309E-283B-40A6-9D93-0FC042CA1929}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="MAIN_LOOP2_POSTCAVE" ID="{78337151-1EA9-449C-926B-E1FF71F480AE}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{D740A787-6AB5-43BE-B7DD-591C817F3EA8}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{CD809C47-02CF-47BC-928F-6081FCFA3FC5}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+															<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{AB139CB8-C402-4072-95A5-E4C7AC301CF7}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MAIN_LOOP2_POSTCAVE" ID="{78337151-1EA9-449C-926B-E1FF71F480AE}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{EDB41C78-FFC5-44F9-B2C3-AF9E91652824}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{9C7E799D-115A-4B68-A77E-CFBFF61D0D88}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-3"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{63892B15-943C-4D41-B148-831A2C0A896D}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MAIN_LOOP" ID="{938A7F97-BC93-4C8E-9DC8-B7112C38001E}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{951241CB-D79F-40E6-BA10-916AC5CFE922}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{36F2C0CF-AB76-4C39-834F-98F347D630DF}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-4"/>
+															<Property Name="FadeTime" Type="Real64" Value="4"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{92D02F10-4FF9-45C3-83A4-1AA24370D5B7}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="NO_MUSIC" ID="{83857DF6-B26D-44FF-AB9D-7EF15B726346}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MAIN_MENU" ID="{51BFCA53-E643-4FAF-ABBA-1FB33541D8B1}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{16B41C6C-CCF6-409F-A2D4-1E6041A3CA80}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{95C73ABE-82E7-4527-A441-DF6E50D11053}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{07C936B8-08E0-4CE2-92A0-19F14A59E5E6}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{2C209A00-56A8-4A8E-A5E6-94AFA4794983}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="MAIN_MENU" ID="{51BFCA53-E643-4FAF-ABBA-1FB33541D8B1}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="NO_MUSIC" ID="{83857DF6-B26D-44FF-AB9D-7EF15B726346}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{5400300F-6430-445B-AB9F-BA9B85FBA655}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{07C936B8-08E0-4CE2-92A0-19F14A59E5E6}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MAIN_LOOP" ID="{938A7F97-BC93-4C8E-9DC8-B7112C38001E}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{248418C0-4139-4BBE-A40F-223A90BC6459}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{07C936B8-08E0-4CE2-92A0-19F14A59E5E6}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="MAIN_LOOP2_POSTCAVE" ID="{78337151-1EA9-449C-926B-E1FF71F480AE}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{1175A6E8-CC9B-47B4-9127-77E74762AB16}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -73,13 +277,13 @@
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 											</PropertyList>
 											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{82D7D1D6-4B5A-42FE-BAAE-482E1908A469}" ShortID="535954068">
+												<MusicPlaylistItem Name="" ID="{EFAAAF41-1423-4E9D-81F1-FAA019786553}" ShortID="440612944">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
-															<ObjectRef Name="CAVES_LOOP" ID="{E53DD511-8B43-4007-BDFD-8E29A6180257}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+															<ObjectRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS" ID="{0E30D969-420B-4091-9EE0-96BD0F10076C}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
 														</Reference>
 													</ReferenceList>
 												</MusicPlaylistItem>
@@ -104,9 +308,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="CAVES_LOOP" ID="{E53DD511-8B43-4007-BDFD-8E29A6180257}" ShortID="971956794">
+								<MusicSegment Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS" ID="{0E30D969-420B-4091-9EE0-96BD0F10076C}" ShortID="240276307">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="261818.191287879"/>
+										<Property Name="EndPosition" Type="Real64" Value="122181.8125"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -117,14 +321,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BASS_SYNTHS" ID="{85827279-289B-4016-80BA-5F0CA59F688E}" ShortID="780057493">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026" ID="{3C62D4EC-8208-4884-B2C7-F7612B99E413}" ShortID="231813339">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{FF684A46-26F3-460C-87A4-71DE01277EE4}">
+														<MusicTransition Name="Root" ID="{D87003BD-9EB1-4292-8E23-223B909A4C62}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -134,11 +338,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BASS_SYNTHS" ID="{66520AAC-DAB7-4965-ADF5-183EF4565048}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026" ID="{ABD5A85E-1C89-49DA-975D-C9F9AF4495D2}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BASS_SYNTHS.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1039563106"/>
+														<MediaID ID="21025159"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -146,18 +350,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{640B144C-8735-4717-B50A-4B02E6B5DDFA}">
+															<MusicTrackSequence Name="" ID="{9709DD07-FE7C-41A1-A9D3-FCE8C1A64EEF}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BASS_SYNTHS" ID="{08A8FF9B-8D77-427C-9548-04C6E98AC08E}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026" ID="{B7CF5161-053D-4183-9AD6-E840BF70B632}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="20402.7216905825"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BASS_SYNTHS" ID="{66520AAC-DAB7-4965-ADF5-183EF4565048}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026" ID="{ABD5A85E-1C89-49DA-975D-C9F9AF4495D2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{619921F9-3922-41CD-BA56-D43AE77FCF14}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{00E34660-4299-4A5B-880E-DA7B991D626C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{814A811C-F62A-4203-B405-65A629CBDDA6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -169,14 +432,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_CYCLES" ID="{9D66F1E4-CA06-4BEF-BE63-2FBBFC2D8D35}" ShortID="574208152">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026" ID="{0A5C87EC-98E4-4CFB-BA0D-170D45AED4E7}" ShortID="1027419207">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{F9CBF693-AE69-40AC-A8ED-038C66182905}">
+														<MusicTransition Name="Root" ID="{ECAB7271-1718-4DE4-85F6-9CD8EFED8881}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -186,11 +449,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_CYCLES" ID="{BE1EB741-1C6F-4246-BBD5-F524B85C9F6E}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026" ID="{54627495-4AF0-454E-8DDB-49E7D56ADE5D}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_CYCLES.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="234120835"/>
+														<MediaID ID="495584611"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -198,18 +461,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{D5392EC0-D859-4EA5-84C7-DC24E8B80EA2}">
+															<MusicTrackSequence Name="" ID="{49A756A5-0256-4F68-81A1-A545790117CD}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_CYCLES" ID="{739C5A54-1C27-47D3-B7FA-2B957AB1A5F3}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026" ID="{DBDE72F6-D3EA-4590-822D-54AD5EE16C0A}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="20989.0067966337"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_CYCLES" ID="{BE1EB741-1C6F-4246-BBD5-F524B85C9F6E}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026" ID="{54627495-4AF0-454E-8DDB-49E7D56ADE5D}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{010DD3B6-6D0D-4A4A-BAB3-31F426AE271C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{8F5E4FF6-C069-4E87-AD5B-D360D0531DFA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{E537E5F9-F967-48F4-AAC1-34260BB60F5A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -221,14 +543,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_SEQUIS" ID="{748C2971-4588-4357-A7D0-6991108851DF}" ShortID="863513787">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026" ID="{5CA2081E-65A8-4E08-B057-609641B4CC40}" ShortID="457657893">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{E7AD508E-FB1E-4E25-9CAA-266603DA2A33}">
+														<MusicTransition Name="Root" ID="{41D3E2EC-6B4B-46EF-BC1E-3EAD3BB581C2}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -238,11 +560,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_SEQUIS" ID="{EB4763CE-598E-4A55-8EDC-F0788D3F66BC}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026" ID="{A47EC422-CFC1-4515-9D3C-871A99759FDC}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_SEQUIS.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="841428409"/>
+														<MediaID ID="301639324"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -250,18 +572,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{FAC8DB76-C13B-40E7-8787-5B2D6F8B92BD}">
+															<MusicTrackSequence Name="" ID="{D68F13AF-FD5E-498D-BE7D-CA2D02515673}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_SEQUIS" ID="{4FFF99A8-FDE7-4E91-A21D-F9B46FAFFD3C}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026" ID="{F8EF019B-5B36-46A6-BE3A-CD009E1EF156}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="8207.99148471707"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BlueRuin_Caves_v1_SEQUIS" ID="{EB4763CE-598E-4A55-8EDC-F0788D3F66BC}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026" ID="{A47EC422-CFC1-4515-9D3C-871A99759FDC}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{4EABEB43-FFED-49B3-A125-B865B9638B94}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B34A7C97-93B4-41B3-B464-B2D3FE94D46B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{7A0E1E17-843E-4408-84D6-272C93DB4EFB}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -273,14 +654,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BPM_Patches" ID="{5C2ABAA8-6B63-4BEB-8151-AD73C9113406}" ShortID="1017677615">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026" ID="{6A6BCAA4-7F64-4FDD-8ED0-F5C4326B62FB}" ShortID="984538785">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{3E6AE401-EB06-4D2E-A814-3AD31C8B5375}">
+														<MusicTransition Name="Root" ID="{397C6A6C-158E-4E31-993F-55E6B6840210}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -290,11 +671,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BPM_Patches" ID="{7A3AB3EE-1E03-4254-9D3F-504595415B33}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026" ID="{A6BDC5BF-C7E0-471F-843F-68ADB423F0D5}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BPM_Patches.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="715947228"/>
+														<MediaID ID="892030566"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -302,18 +683,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{72DE92B7-72AB-4FE6-B65B-144693BC6555}">
+															<MusicTrackSequence Name="" ID="{0DD694EC-6972-4BEF-AD62-1C50DAA04888}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BPM_Patches" ID="{757F7318-5631-4959-BAEF-ECA125AC55AB}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026" ID="{F9947E0A-622C-4E0D-900B-3893E05D5F5F}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="7856.22042108634"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_BPM_Patches" ID="{7A3AB3EE-1E03-4254-9D3F-504595415B33}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026" ID="{A6BDC5BF-C7E0-471F-843F-68ADB423F0D5}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{9ADEE409-4CF4-4723-9433-A815F9B4B68D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{8F9D2474-807A-45D4-92E3-5AEBA6C5216D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{9D9D68F4-B1B1-4905-9032-C232318295D2}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -325,14 +765,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_DRONES" ID="{56A85D4B-DCF9-41B1-9477-B7936EDA797D}" ShortID="1053119607">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026" ID="{72131CD5-6E0F-4F9D-8295-C51CB039C1C9}" ShortID="180706285">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{3061884F-1BD3-4CEF-B443-F2EF07AFA63C}">
+														<MusicTransition Name="Root" ID="{78ED3163-5B59-4F9F-8CDF-AD2AFB7166CD}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -342,11 +782,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_DRONES" ID="{F270957D-6408-4A3F-BF4A-5360EB428C32}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026" ID="{D4A1A517-5539-4E37-BCD4-9E981959837D}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_DRONES.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="544944030"/>
+														<MediaID ID="229234198"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -354,18 +794,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{53CA967D-A0E5-439D-96E6-9E56F14F6F21}">
+															<MusicTrackSequence Name="" ID="{4BE0C8F2-694E-4FAA-9489-F82CA3E2BFBA}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_DRONES" ID="{F60EE970-3546-41E0-A67D-170AC7000494}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026" ID="{F7C94DDC-C99E-487B-9A50-782BAE520BB7}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="8442.50552713756"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_DRONES" ID="{F270957D-6408-4A3F-BF4A-5360EB428C32}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026" ID="{D4A1A517-5539-4E37-BCD4-9E981959837D}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{34A79D54-D923-4B6A-8D4F-58AE005D88F4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{AAB5C3D8-72A4-48DA-8531-8E1D0176888F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{CA3C2A5E-E8F4-4E27-A515-1DBF90C3A3F1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -377,14 +876,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_Metallic_Sounds" ID="{9238DF07-9698-41E9-B648-FAEF24EB5978}" ShortID="501430594">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026" ID="{81763268-4EBC-4DFD-8FB6-C1F35124614D}" ShortID="678486285">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{95C10698-66F0-4E50-A0C6-F2C0C4D79D56}">
+														<MusicTransition Name="Root" ID="{706A0351-7F3E-43D0-A7E1-DF8D2E87B7BE}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -394,11 +893,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_Metallic_Sounds" ID="{8F9B0C3D-F2ED-4C22-9142-F244C76FF398}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026" ID="{FD49F4AE-5AE6-43D6-8E48-A9AEEF0737C6}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_Metallic_Sounds.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="119004564"/>
+														<MediaID ID="151339422"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -406,18 +905,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{396D2CA2-E363-442E-BE99-A5C348BAE3A7}">
+															<MusicTrackSequence Name="" ID="{EC5D7B35-2B93-4563-BCF5-BE6D03D2E7F9}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_Metallic_Sounds" ID="{096448E6-2891-47D4-A93E-5714918D648B}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026" ID="{A9C1DFC5-3D74-418C-9E56-2E22A7D3EF2A}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="7738.9633998761"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_Metallic_Sounds" ID="{8F9B0C3D-F2ED-4C22-9142-F244C76FF398}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026" ID="{FD49F4AE-5AE6-43D6-8E48-A9AEEF0737C6}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{6024AE03-1F61-4724-8C8A-F630A1F8CDFA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B98E8706-C47A-473D-9824-EBA281ADDFFA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{9D5AECFB-E5F1-4A1A-8BB0-BDC093106A6E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -429,14 +987,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_OMNISPHERE" ID="{38770EA8-B287-444B-9031-8852CE4AF460}" ShortID="943869756">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026" ID="{976E91A2-F4B5-4258-ABE8-B916435CD43B}" ShortID="343469967">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{4A1A1FAC-FF34-46B7-9196-79B07016633B}">
+														<MusicTransition Name="Root" ID="{1E719FA9-9D9A-48A1-83ED-1D9BF282170C}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -446,11 +1004,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_OMNISPHERE" ID="{F75C0200-31B9-4BA4-8D3F-A482C4D5C834}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026" ID="{356E5277-CD0C-4088-BABF-C87FE9B4AA1A}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_OMNISPHERE.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="456629471"/>
+														<MediaID ID="316815008"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -458,18 +1016,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{EC91BC1A-933A-4C0E-85A7-3431ADA1DAB4}">
+															<MusicTrackSequence Name="" ID="{7C988233-7C89-4422-9EB8-98697625E676}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_OMNISPHERE" ID="{151FA1BF-5102-4ED0-BBBE-0E99A9443EF8}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026" ID="{EC123D68-3F71-40D5-9711-2BE7FA4027CB}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="8794.27659076829"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_OMNISPHERE" ID="{F75C0200-31B9-4BA4-8D3F-A482C4D5C834}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026" ID="{356E5277-CD0C-4088-BABF-C87FE9B4AA1A}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{BCF1B7EC-E255-41B8-9342-701F0031CFFB}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{52F3F9DC-A9FD-46DE-970A-9F0E2A473F4E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{5BF468AB-254B-4795-90E2-E47D37D847FC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -481,14 +1098,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_VOX" ID="{2A82B1F4-2EB6-49AC-BBA7-216836BF6A70}" ShortID="820893855">
+										<MusicTrack Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026" ID="{C99FA672-328B-491C-BE79-5EF13B62B0CC}" ShortID="862480799">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{B4C5A816-5FEF-4DFF-82F6-0D4F50B97163}">
+														<MusicTransition Name="Root" ID="{5DBCEB39-FEED-49FA-A6E2-05A4AAFCBDD1}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -498,11 +1115,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_VOX" ID="{16C289E0-434A-42B2-A6D1-D441A9AC6142}">
+												<AudioFileSource Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026" ID="{0FBEB421-C48F-40BD-AAD3-96D593555EE6}">
 													<Language>SFX</Language>
-													<AudioFile>EM_BlueRuin_MX_CaveDiving_Loop_STEMS\EM_BlueRuin_CaveDiving_Loop_270926_STEMS_VOX.wav</AudioFile>
+													<AudioFile>EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="715455390"/>
+														<MediaID ID="541749331"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -510,18 +1127,77 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{0F376164-9238-4AB3-A1DD-25D79D722754}">
+															<MusicTrackSequence Name="" ID="{B106CDA4-61DE-4B2D-9662-526620ECE159}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_VOX" ID="{BCB83933-3396-4E70-88AA-92BA7058E0D1}">
+																				<MusicClip Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026" ID="{10D28448-5A8C-45C7-805A-FF36A514E58D}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="244363.645833333"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="104727.272727273"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="9028.79063318878"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="EM_BlueRuin_CaveDiving_Loop_270926_STEMS_VOX" ID="{16C289E0-434A-42B2-A6D1-D441A9AC6142}"/>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026" ID="{0FBEB421-C48F-40BD-AAD3-96D593555EE6}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{17338F1A-39B0-4FE9-A625-C1A37A9360CA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{5B4078B7-54F4-4708-9866-2815B918C92A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{BBE2E05E-11DD-4FED-97DD-23A40AE485A9}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>104.72727</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -538,19 +1214,19 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{ACA247FE-BE68-4EC0-B292-CE40BB15BDF3}">
+													<MusicCue Name="Entry Cue" ID="{9110CCC9-3EBC-421D-A173-63DD4FB9FFAF}">
 														<PropertyList>
-															<Property Name="TimeMs" Type="Real64" Value="8727.27272727273"/>
+															<Property Name="TimeMs" Type="Real64" Value="17454.5454545455"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{1F457BDB-5988-4D14-8AC1-3BC0BCE8F400}">
+													<MusicCue Name="Exit Cue" ID="{72476C2F-4B0D-4313-B520-5D21BB61AD55}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="34909.0909090909"/>
+															<Property Name="TimeMs" Type="Real64" Value="96000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -577,6 +1253,10 @@
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
 										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+										<CustomState Name="" ID="{837FD7A0-8B5D-4F34-BCA3-946235C6FD8B}" ShortID="593367007"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
@@ -656,7 +1336,7 @@
 							<ChildrenList>
 								<MusicSegment Name="MAIN WORLD_100" ID="{ACD559CF-144D-408D-8AAE-BCE594566F0C}" ShortID="449085418">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="154400"/>
+										<Property Name="EndPosition" Type="Real64" Value="159000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -703,11 +1383,72 @@
 																			<Local>
 																				<MusicClip Name="BlueRuin_MainWorldLoop_v4_100_test1" ID="{4ECED43E-3ADF-40FC-8DBD-3E55D56B4E45}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="146400"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="4462.11882703364"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="-1.08564268685996E-11"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="150000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="2136.38254906246"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2685.74936590981"/>
+																						<Property Name="PlayAt" Type="Real64" Value="1.08564268685996E-11"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="BlueRuin_MainWorldLoop_v4_100_test1" ID="{70FDF964-5DAC-495D-8DB5-C771D5186144}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{14FDF2BC-FDE9-42D5-9998-E671943235BE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>150</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{4A8828B6-B05B-446B-888C-EBE36FBA776E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>150</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{6B67168B-1C9C-4020-AB5E-50F8E0DD45B9}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>-0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>150</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -724,7 +1465,11 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{8F11315B-F0D5-4990-9A52-898547C76347}"/>
+													<MusicCue Name="Entry Cue" ID="{8F11315B-F0D5-4990-9A52-898547C76347}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2400"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
@@ -755,6 +1500,10 @@
 									<CustomState>
 										<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
 										<CustomState Name="" ID="{3A0FEDBA-1CC8-4DFE-9D70-300279018B3A}" ShortID="543852133"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+										<CustomState Name="" ID="{07E228A1-CD03-4342-89A7-42C6B473800D}" ShortID="519553098"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
@@ -1285,12 +2034,7 @@
 								</MusicSegment>
 							</ChildrenList>
 						</MusicPlaylistContainer>
-						<MusicSegment Name="LOWOXYGEN_TODEATH" ID="{ADC73352-D91C-4E8B-A570-7946F063C300}" ShortID="67598224">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="104727.270833333"/>
-								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="55"/>
-							</PropertyList>
+						<MusicPlaylistContainer Name="LOWOXYGEN_TODEATH" ID="{07C936B8-08E0-4CE2-92A0-19F14A59E5E6}" ShortID="430196805">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
@@ -1298,237 +2042,611 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{98477469-7CCC-4688-AB05-219D65790FAE}" ShortID="992279611">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{890D0155-B528-4E3F-B0C7-3D90A995767E}" ShortID="613273234">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting" ID="{13B97334-A791-4BA5-BB6D-B551525EE293}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1DD20E61-D5E2-4CEB-AEAD-5292CE9B5C1C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{1828CD24-8927-4ADF-B62B-4D3BF0A36FB6}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{D6340E45-0FF3-4F49-BAF8-3B4DD94A7667}" ShortID="383714182">
+								<MusicSegment Name="EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting" ID="{13B97334-A791-4BA5-BB6D-B551525EE293}" ShortID="106065057">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56000"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{BA9B7013-CB63-4155-8DA0-2BF6CDCDCBAA}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{A920262E-1EE6-495D-A71B-84F3FFCD3815}">
-											<Language>SFX</Language>
-											<AudioFile>LOW OXYGEN_55\EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="586702465"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026" ID="{6F3ED675-7E16-4542-A6F9-404D6A8B0B6C}" ShortID="570599198">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{A78CEA70-4C43-4180-8F6A-83B91A1EB9C4}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026" ID="{D36976D6-28B1-400B-BCD0-DAE79835559B}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="715489650"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A6231FD9-D95B-47D1-B235-B58D16BC3C08}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026" ID="{5D218733-E999-4A76-9514-E4C5EFDB35A8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026" ID="{D36976D6-28B1-400B-BCD0-DAE79835559B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026" ID="{2FE2D08B-6873-4F58-8093-644FAD1B8F11}" ShortID="682091639">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{45A91D28-2F51-4E29-AD76-2EF8B5ECF1CA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026" ID="{BD9FC978-FB91-4497-8B1C-187B8EA6E1A0}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124399950"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{842377D3-0A77-46AE-B8E2-E87BF73E53FD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026" ID="{594D59A0-DE59-436B-B9CD-FB8896FBC905}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="5770.31630170316"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026" ID="{BD9FC978-FB91-4497-8B1C-187B8EA6E1A0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026" ID="{762CA4A6-D40F-4AD4-8501-B7E433EC3C62}" ShortID="611050675">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F3340ED5-8818-493C-A7B5-3A61A25855B3}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026" ID="{44D44006-8602-42EB-B161-332142E91E3D}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="358567247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8D1987C4-471C-47FD-9154-2A38E7808229}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026" ID="{D41170E6-37A8-492C-A15C-7E7B95064106}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026" ID="{44D44006-8602-42EB-B161-332142E91E3D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026" ID="{BEC81C09-A9A7-4A24-8110-AC708F80EDEA}" ShortID="325093299">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{A902B28B-87A5-4EA3-83D2-FF88C8767980}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026" ID="{C496A8B2-14C9-4F3B-A354-7D5A953AD912}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="781441377"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F60F903F-F674-4C67-B3FC-02AEB826B59C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026" ID="{CAD5DB12-9A7C-479C-B56E-28C6C6A90694}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026" ID="{C496A8B2-14C9-4F3B-A354-7D5A953AD912}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026" ID="{D791CA26-0377-47BB-A380-BE60C2030A9D}" ShortID="451654005">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{649D8CE3-AE03-49BD-9084-857D6C7C93B9}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026" ID="{8B5E96F1-F301-45BA-8B8F-B0187E7FFF16}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="660132397"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3833CFBD-F724-431F-A42F-D53359646E97}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026" ID="{4E96A1D0-994F-4C20-A001-EA0BE49E1C45}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026" ID="{8B5E96F1-F301-45BA-8B8F-B0187E7FFF16}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026" ID="{E67D3E8B-30BB-4F08-96C1-F583A29C397E}" ShortID="842987228">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{CCFE1A70-0DC2-409D-95F4-543EE57C9781}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026" ID="{38497DF2-2D65-4A88-93B2-3B9E314359F3}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1007081118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BB7BE785-5ED3-49E0-B569-30CBA11FD2E4}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026" ID="{D5B8DA0C-88A4-4B7D-8DC4-D7C04EAB9D9B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026" ID="{38497DF2-2D65-4A88-93B2-3B9E314359F3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026" ID="{2D309A70-D2FA-4CC3-9FF6-8E0657B17E77}" ShortID="589481830">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9673679D-9FFF-4723-9FCF-025E872912CB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026" ID="{10D92A38-DB85-4E91-81B0-32BF1A83824B}">
+													<Language>SFX</Language>
+													<AudioFile>EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="194896779"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0D7B6FDE-5595-40DA-B2D9-76B94B7E7EAD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026" ID="{A2EEC9CE-2C77-4AAD-935C-65E4A3B0B6E8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026" ID="{10D92A38-DB85-4E91-81B0-32BF1A83824B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
-										<ObjectList Name="Sequences">
+										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{B7FDACF4-31B2-43E7-87BF-A94D9B5D47B3}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{EAF2F633-D4CA-4153-AA32-DC29A9A0406B}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="104727.270833333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_BASS_SYNTHS" ID="{A920262E-1EE6-495D-A71B-84F3FFCD3815}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
+													<MusicCue Name="Entry Cue" ID="{4926F3BD-EA52-48B6-93FF-329FDF792A96}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D2D874CD-DA5F-4EE1-BA4F-0827FBFA7C09}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="56000"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{724BF962-0CFB-4608-9FAB-89FA5737A2C8}" ShortID="874112041">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{14D39420-25C8-425F-B665-A68840BEBAFC}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{CC910EF4-10D4-4E55-9007-26E6D7F288A4}">
-											<Language>SFX</Language>
-											<AudioFile>LOW OXYGEN_55\EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1014785929"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{CE68AD2D-5C82-4B53-9D0C-FBCC8552096B}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{21FB171E-E2DC-4A9D-80BA-56CB52964DF5}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="104727.270833333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_Metallic_Sounds" ID="{CC910EF4-10D4-4E55-9007-26E6D7F288A4}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{6189EEEF-E0A1-4926-AD14-66BD74E731CF}" ShortID="1020319299">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{A5B2322C-69D4-4D6B-B4ED-F3A5815480A8}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{1CA2DDC0-7F91-4204-8657-F7E48EA56403}">
-											<Language>SFX</Language>
-											<AudioFile>LOW OXYGEN_55\EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="531376527"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{26CFE52D-3366-411D-9F4E-129BAD02C8C0}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{933CB50B-00DA-471B-B20F-DEA456823C07}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="104727.270833333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_OMNISPHERE" ID="{1CA2DDC0-7F91-4204-8657-F7E48EA56403}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{BD585A2E-4EDF-4255-BEBA-9F6D9B63EFA1}" ShortID="642977574">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{8F91C760-44CF-4E40-81B9-1E6B437DB3C1}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{69DAF804-9CA5-4F88-B296-4C884E7CF7D1}">
-											<Language>SFX</Language>
-											<AudioFile>LOW OXYGEN_55\EM_BlueRuin_LowOxygenState_260926_STEMS_VOX.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="447464350"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{46D67E1C-7892-4ADF-9F71-1D786B845376}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{A1A4D18F-C70A-4883-9BD0-94E60AFD8733}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="104727.270833333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="EM_BlueRuin_LowOxygenState_260926_STEMS_VOX" ID="{69DAF804-9CA5-4F88-B296-4C884E7CF7D1}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
+								</MusicSegment>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{24E55ADC-C70D-46C4-93E1-BAB975E52B39}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{C960F3F3-D674-48F9-9ABB-59603A5F855A}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="104727.270833333"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MAIN_LOOP2_POSTCAVE" ID="{78337151-1EA9-449C-926B-E1FF71F480AE}" ShortID="149505609">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{46FB2E44-DDA9-421B-A271-299865037C33}" ShortID="259664438">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{F017CE2D-FF31-402A-AC4B-E4D627866C8E}" ShortID="753760541">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{35EFEE9D-B00B-4F35-868A-7AAC5A7AF60B}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{FF2C2B33-6609-4E9D-B450-B11CB6225AFB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{250AC557-FF4E-4564-A4FF-1F601B7B1163}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{35EFEE9D-B00B-4F35-868A-7AAC5A7AF60B}" ShortID="251458202">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="316800"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{99B48C6D-342A-4C75-A85E-38994BE9912A}" ShortID="813905103">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{51FEACAB-9C8B-436D-B37B-68AA218A26F6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{7FE6A16A-BA87-4E9E-9009-118A422E1960}">
+													<Language>SFX</Language>
+													<AudioFile>BlueRuin_MainWorldLoop_v4_backtomainworld.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="322077818"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5DD6D1D3-B056-44C5-BFF6-FC38E1A822B5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{53AECA97-2EBF-4C63-A28A-15D64E505A2D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="156000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="BlueRuin_MainWorldLoop_v4_backtomainworld" ID="{7FE6A16A-BA87-4E9E-9009-118A422E1960}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B4186680-C81A-4CFB-9073-AC0D3E3A252C}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="9600"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5FCA026C-A857-4A22-8236-C98747D812FE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="153600"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="NO_MUSIC" ID="{83857DF6-B26D-44FF-AB9D-7EF15B726346}" ShortID="178782083">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4210EBC-985F-4C2F-B834-1C58C48DCB2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{A3F67FDB-7E05-45DB-AC26-4847F637E5F4}" ShortID="442781521"/>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{50000029-01C1-4328-A60A-F7E25D468EC1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{054F830E-209B-4664-AF80-50CB007A7B87}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -1544,6 +2662,10 @@
 							<CustomState>
 								<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
 								<CustomState Name="" ID="{E66976F7-B87C-4A82-938D-80D21A602C55}" ShortID="862186043"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+								<CustomState Name="" ID="{1D2B3328-4D76-455F-915F-29F9FEA45777}" ShortID="388432101"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
@@ -1575,7 +2697,7 @@
 									<MultiSwitchEntry Name="" ID="{C401336E-05DF-4C24-8B9A-B22C04909CD5}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
-												<ObjectRef Name="CAVES_LOOP" ID="{E53DD511-8B43-4007-BDFD-8E29A6180257}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												<ObjectRef Name="CAVES" ID="{1DA55B33-682F-4B7D-9DA1-F30EB22ADEA5}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
 											</Reference>
 										</ReferenceList>
 										<ObjectLists>
@@ -1629,13 +2751,49 @@
 									<MultiSwitchEntry Name="" ID="{12949445-E849-48E4-A218-1431AB6D2092}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
-												<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{ADC73352-D91C-4E8B-A570-7946F063C300}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+												<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{07C936B8-08E0-4CE2-92A0-19F14A59E5E6}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
 											</Reference>
 										</ReferenceList>
 										<ObjectLists>
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{4C022689-F38E-440A-B1FF-FC78B5B00F81}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MAIN_LOOP2_POSTCAVE" ID="{78337151-1EA9-449C-926B-E1FF71F480AE}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{CE0E1DA9-1F22-4038-BC7A-0B52EA694390}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="NO_MUSIC" ID="{83857DF6-B26D-44FF-AB9D-7EF15B726346}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>
