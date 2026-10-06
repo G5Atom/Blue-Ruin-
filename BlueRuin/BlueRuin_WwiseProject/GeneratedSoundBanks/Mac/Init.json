@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{2A9AED47-684F-18C7-4DF5-C0BAE8138A11}",
+    "Hash": "{B22C98A1-E256-A2D1-214C-E32D3FDD4A9C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -62,6 +62,12 @@
         "GUID": "{AE682E5F-3554-4E95-8D1F-818A53AC3123}"
        },
        {
+        "Id": "1297259595",
+        "Name": "LOWOXYGEN_TODEATH",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\LOWOXYGEN_TODEATH",
+        "GUID": "{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"
+       },
+       {
         "Id": "2005704188",
         "Name": "MAIN_MENU",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
@@ -72,6 +78,18 @@
         "Name": "MAIN_LEVEL",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL",
         "GUID": "{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"
+       },
+       {
+        "Id": "3767268120",
+        "Name": "NO_MUSIC",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\NO_MUSIC",
+        "GUID": "{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"
+       },
+       {
+        "Id": "3967788281",
+        "Name": "MAIN_LEVEL2_POSTCAVE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL2_POSTCAVE",
+        "GUID": "{8F48926B-420D-4955-B85B-36E37480E614}"
        }
       ]
      },
@@ -113,6 +131,6 @@
     ]
    }
   ],
-  "FileHash": "{1AAAB127-7892-CCD4-6A0D-AEB71CAE7B89}"
+  "FileHash": "{28EA9FA2-FDBA-96B0-3B93-D2CCFB5C55F8}"
  }
 }
