@@ -36,6 +36,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{7D05DEAD-32C5-450E-99F7-D7152FDA41AC}" ShortID="401247166">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PLAY_SYING_ENTERCAVE" ID="{4461D1F3-0474-4D76-952F-8A4F99E2D686}">
