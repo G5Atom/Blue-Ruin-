@@ -1,0 +1,508 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "417627684",
+    "Type": "User",
+    "GUID": "{0AC7F81B-2422-4DE0-9765-B38752D3BB49}",
+    "Language": "SFX",
+    "Hash": "{8CDB96F0-B0D6-6F68-AE0B-32A148D6276C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PLAYMUSIC",
+    "ShortName": "PLAYMUSIC",
+    "Path": "PLAYMUSIC.bnk",
+    "Media": [
+     {
+      "Id": "21025159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026.wav",
+      "CachePath": "D4/{D4B5C78E-D2CC-50E3-5C52-FD1C91687595}.wem"
+     },
+     {
+      "Id": "32956664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_SYNTH.wav",
+      "CachePath": "F0/{F0F299A8-E3CA-31ED-0CF4-3E6D0277F4E7}.wem"
+     },
+     {
+      "Id": "124399950",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026.wav",
+      "CachePath": "7D/{7D902048-EEC2-CF1F-C54E-94DAB9D8F872}.wem"
+     },
+     {
+      "Id": "151339422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026.wav",
+      "CachePath": "A5/{A52BC35E-9F50-C580-1B41-60113A3B8EB7}.wem"
+     },
+     {
+      "Id": "194896779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026.wav",
+      "CachePath": "8C/{8CDB52CD-50B4-873C-07AF-63A9CE997D20}.wem"
+     },
+     {
+      "Id": "229234198",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026.wav",
+      "CachePath": "97/{9797CF2F-CB8D-502A-ED86-AC2B9E5D120F}.wem"
+     },
+     {
+      "Id": "231184932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_Harp.wav",
+      "CachePath": "FD/{FDC62A64-358B-1009-1CEA-30A414A488F6}.wem"
+     },
+     {
+      "Id": "280954489",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_INDIAN PERC.wav",
+      "CachePath": "56/{5618F1A7-51CB-6A13-23EE-FB276D25BACE}.wem"
+     },
+     {
+      "Id": "301639324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026.wav",
+      "CachePath": "09/{09DCA131-F11C-09E0-C2F1-5951E995EF28}.wem"
+     },
+     {
+      "Id": "316815008",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026.wav",
+      "CachePath": "80/{80AE9FB9-12D6-F0EE-1E94-90F041B6A435}.wem"
+     },
+     {
+      "Id": "322077818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BlueRuin_MainWorldLoop_v4_backtomainworld.wav",
+      "CachePath": "4A/{4AB26325-0C0E-BCEC-91C0-10BF3CFA8989}.wem"
+     },
+     {
+      "Id": "358567247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026.wav",
+      "CachePath": "B2/{B2B19C02-0F9E-BBD1-E72D-09ED592841B6}.wem"
+     },
+     {
+      "Id": "432129745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_TranstoCave_270926.wav",
+      "CachePath": "45/{4517A73D-B834-00CA-D090-D90ED9F187D9}.wem"
+     },
+     {
+      "Id": "462951726",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOW OXYGEN_55\\EM_GG_BR_LowOxygenState_DeathStinger_220926.wav",
+      "CachePath": "FC/{FC295A36-5C03-8CDE-14CD-60CB48F55FEC}.wem"
+     },
+     {
+      "Id": "494535547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_WINDS.wav",
+      "CachePath": "52/{52CA08BC-D1E9-B87C-76F5-FF59DD1C12D7}.wem"
+     },
+     {
+      "Id": "495584611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026.wav",
+      "CachePath": "21/{2149B9BE-C302-3FC3-7384-EA624DA62743}.wem"
+     },
+     {
+      "Id": "541749331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026.wav",
+      "CachePath": "DC/{DCF498AB-49BC-EA23-063C-C8391C192570}.wem"
+     },
+     {
+      "Id": "660132397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026.wav",
+      "CachePath": "54/{5447CE7D-8811-5270-1D68-5F05594848DA}.wem"
+     },
+     {
+      "Id": "686998284",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_Trans_CavestoMain_270926.wav",
+      "CachePath": "25/{25F95BDD-8580-E427-1903-4CA19E7223B4}.wem"
+     },
+     {
+      "Id": "715489650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026.wav",
+      "CachePath": "B8/{B8574EEA-818D-F95E-0E27-2F8AEC83A342}.wem"
+     },
+     {
+      "Id": "742432173",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_SEQUIS.wav",
+      "CachePath": "5B/{5BB98585-3EA6-4627-DC51-B39A7AA24E38}.wem"
+     },
+     {
+      "Id": "760187134",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_SHAKERS.wav",
+      "CachePath": "6C/{6C81EFFA-68D0-51CD-EDC8-6F0A26BE5FBF}.wem"
+     },
+     {
+      "Id": "762295927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN WORLD_100\\BlueRuin_MainWorldLoop_v4_100_test1.wav",
+      "CachePath": "3C/{3C11F71A-8BD7-D4AC-11B2-B2E51583CFB0}.wem"
+     },
+     {
+      "Id": "781441377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026.wav",
+      "CachePath": "E6/{E6C479F8-CAF3-2E46-78B6-E597FDDA3472}.wem"
+     },
+     {
+      "Id": "837164649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_TRIANGLE.wav",
+      "CachePath": "8D/{8DE8CBCF-5638-5F75-3A6E-0EEE50FD6C8D}.wem"
+     },
+     {
+      "Id": "892030566",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026.wav",
+      "CachePath": "D1/{D1523814-004E-31B4-93E7-7F4DEC512821}.wem"
+     },
+     {
+      "Id": "945841942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BlueRuin_PlayGameSting_v1.wav",
+      "CachePath": "5C/{5C663CA5-46F4-B3FD-90B1-13E7DA8FDBD1}.wem"
+     },
+     {
+      "Id": "1007081118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026.wav",
+      "CachePath": "DC/{DCA6FB82-62EB-1426-ABCE-939F89514100}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUSIC",
+      "GUID": "{BAACCC90-D22A-44E2-9D06-3D3103A29E07}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "432129745"
+       },
+       {
+        "Id": "462951726"
+       },
+       {
+        "Id": "686998284"
+       },
+       {
+        "Id": "945841942"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "749373321",
+         "GUID": "{AE682E5F-3554-4E95-8D1F-818A53AC3123}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "21025159"
+         },
+         {
+          "Id": "151339422"
+         },
+         {
+          "Id": "229234198"
+         },
+         {
+          "Id": "301639324"
+         },
+         {
+          "Id": "316815008"
+         },
+         {
+          "Id": "495584611"
+         },
+         {
+          "Id": "541749331"
+         },
+         {
+          "Id": "892030566"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "3130520577",
+         "GUID": "{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "762295927"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "2005704188",
+         "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "32956664"
+         },
+         {
+          "Id": "231184932"
+         },
+         {
+          "Id": "280954489"
+         },
+         {
+          "Id": "494535547"
+         },
+         {
+          "Id": "742432173"
+         },
+         {
+          "Id": "760187134"
+         },
+         {
+          "Id": "837164649"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "1297259595",
+         "GUID": "{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "124399950"
+         },
+         {
+          "Id": "194896779"
+         },
+         {
+          "Id": "358567247"
+         },
+         {
+          "Id": "660132397"
+         },
+         {
+          "Id": "715489650"
+         },
+         {
+          "Id": "781441377"
+         },
+         {
+          "Id": "1007081118"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "3967788281",
+         "GUID": "{8F48926B-420D-4955-B85B-36E37480E614}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "322077818"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "2005704188",
+        "Name": "MAIN_MENU",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
+        "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+       }
+      ]
+     },
+     {
+      "Id": "2661512896",
+      "Name": "PLAY_STING_PLAYGAME",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAY_STING_PLAYGAME",
+      "GUID": "{E8B89BC8-1245-42AE-9962-7302534061FF}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "3130520577",
+        "Name": "MAIN_LEVEL",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL",
+        "GUID": "{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"
+       }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "216639764",
+        "Name": "PLAY_GAME",
+        "ObjectPath": "\\Triggers\\MUSIC\\PLAY_GAME",
+        "GUID": "{D0FF0AE2-C71E-4201-827B-B93B68817C73}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "89505537",
+      "Name": "GAMEPLAY",
+      "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY",
+      "GUID": "{3EA64AE5-5FFA-4234-8520-86A599B8F677}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\None",
+        "GUID": "{1D031D13-A11F-4947-9818-FC59D2A4581C}"
+       },
+       {
+        "Id": "749373321",
+        "Name": "CAVES",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\CAVES",
+        "GUID": "{AE682E5F-3554-4E95-8D1F-818A53AC3123}"
+       },
+       {
+        "Id": "1297259595",
+        "Name": "LOWOXYGEN_TODEATH",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\LOWOXYGEN_TODEATH",
+        "GUID": "{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"
+       },
+       {
+        "Id": "2005704188",
+        "Name": "MAIN_MENU",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
+        "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+       },
+       {
+        "Id": "3130520577",
+        "Name": "MAIN_LEVEL",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL",
+        "GUID": "{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"
+       },
+       {
+        "Id": "3767268120",
+        "Name": "NO_MUSIC",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\NO_MUSIC",
+        "GUID": "{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"
+       },
+       {
+        "Id": "3967788281",
+        "Name": "MAIN_LEVEL2_POSTCAVE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL2_POSTCAVE",
+        "GUID": "{8F48926B-420D-4955-B85B-36E37480E614}"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "216639764",
+      "Name": "PLAY_GAME",
+      "ObjectPath": "\\Triggers\\MUSIC\\PLAY_GAME",
+      "GUID": "{D0FF0AE2-C71E-4201-827B-B93B68817C73}"
+     },
+     {
+      "Id": "1969697111",
+      "Name": "DEATH_STING",
+      "ObjectPath": "\\Triggers\\MUSIC\\DEATH_STING",
+      "GUID": "{3F495C9E-EDFB-4B25-BBFA-81F55AB2165F}"
+     },
+     {
+      "Id": "2818521038",
+      "Name": "LEAVE_CAVE",
+      "ObjectPath": "\\Triggers\\MUSIC\\LEAVE_CAVE",
+      "GUID": "{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}"
+     },
+     {
+      "Id": "2965502035",
+      "Name": "ENTER_CAVE",
+      "ObjectPath": "\\Triggers\\MUSIC\\ENTER_CAVE",
+      "GUID": "{9A3222A1-733D-4408-803C-6F47AA2F8756}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{28DAECA3-E5E9-28D8-EB1F-AD58FCCDD478}"
+ }
+}

@@ -1,0 +1,52 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2661512896	PLAY_STING_PLAYGAME			\Default Work Unit\PLAY_STING_PLAYGAME	
+	2932040671	Play_MUSIC			\Default Work Unit\Play_MUSIC	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	89505537	GAMEPLAY			\Default Work Unit\MUSIC\GAMEPLAY	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GAMEPLAY			
+	749373321	CAVES	GAMEPLAY			
+	1297259595	LOWOXYGEN_TODEATH	GAMEPLAY			
+	2005704188	MAIN_MENU	GAMEPLAY			
+	3130520577	MAIN_LEVEL	GAMEPLAY			
+	3767268120	NO_MUSIC	GAMEPLAY			
+	3967788281	MAIN_LEVEL2_POSTCAVE	GAMEPLAY			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	216639764	PLAY_GAME			\MUSIC\PLAY_GAME	
+	1969697111	DEATH_STING			\MUSIC\DEATH_STING	
+	2818521038	LEAVE_CAVE			\MUSIC\LEAVE_CAVE	
+	2965502035	ENTER_CAVE			\MUSIC\ENTER_CAVE	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21025159	EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\D4\{D4B5C78E-D2CC-50E3-5C52-FD1C91687595}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BASS_SYNTHS_031026		23459068
+	32956664	New Random Music Track_04	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\F0\{F0F299A8-E3CA-31ED-0CF4-3E6D0277F4E7}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Random Music Track_04		5990608
+	124399950	EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\7D\{7D902048-EEC2-CF1F-C54E-94DAB9D8F872}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026		10752208
+	151339422	EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\A5\{A52BC35E-9F50-C580-1B41-60113A3B8EB7}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_OMNISPHERE_031026		23459068
+	194896779	EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\8C\{8CDB52CD-50B4-873C-07AF-63A9CE997D20}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_VOX_031026		10752208
+	229234198	EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\97\{9797CF2F-CB8D-502A-ED86-AC2B9E5D120F}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_Metallic_Sounds_031026		23459068
+	231184932	New Sequence Music Track	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\FD\{FDC62A64-358B-1009-1CEA-30A414A488F6}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Sequence Music Track		5990608
+	280954489	New Random Music Track_01	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\56\{5618F1A7-51CB-6A13-23EE-FB276D25BACE}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Random Music Track_01		5990608
+	301639324	EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\09\{09DCA131-F11C-09E0-C2F1-5951E995EF28}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_CYCLES_031026		23459068
+	316815008	EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\80\{80AE9FB9-12D6-F0EE-1E94-90F041B6A435}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_SEQUIS_031026		23459068
+	322077818	BlueRuin_MainWorldLoop_v4_backtomainworld	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\4A\{4AB26325-0C0E-BCEC-91C0-10BF3CFA8989}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_LOOP2_POSTCAVE\BlueRuin_MainWorldLoop_v4_backtomainworld\BlueRuin_MainWorldLoop_v4_backtomainworld		29952208
+	358567247	EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\B2\{B2B19C02-0F9E-BBD1-E72D-09ED592841B6}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BPM_Patches_031026		10752208
+	432129745	EM_BlueRuin_MX_TranstoCave_270926	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\45\{4517A73D-B834-00CA-D090-D90ED9F187D9}.wem		\Interactive Music Hierarchy\STINGERS\ENTER_CAVE\EM_BlueRuin_MX_TranstoCave_270926		5027132
+	462951726	EM_GG_BR_LowOxygenState_DeathStinger_220926	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\FC\{FC295A36-5C03-8CDE-14CD-60CB48F55FEC}.wem		\Interactive Music Hierarchy\STINGERS\DEATH STINGER\EM_GG_BR_LowOxygenState_DeathStinger_220926		5241776
+	494535547	New Random Music Track	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\52\{52CA08BC-D1E9-B87C-76F5-FF59DD1C12D7}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Random Music Track		5990608
+	495584611	EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\21\{2149B9BE-C302-3FC3-7384-EA624DA62743}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_BPM_Patches_031026		23459068
+	541749331	EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\DC\{DCF498AB-49BC-EA23-063C-C8391C192570}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026		23459068
+	660132397	EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\54\{5447CE7D-8811-5270-1D68-5F05594848DA}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Metallic_Sounds_031026		10752208
+	686998284	EM_BlueRuin_MX_Trans_CavestoMain_270926	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\25\{25F95BDD-8580-E427-1903-4CA19E7223B4}.wem		\Interactive Music Hierarchy\STINGERS\LEAVE_CAVE\EM_BlueRuin_MX_Trans_CavestoMain_270926		6552448
+	715489650	EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\B8\{B8574EEA-818D-F95E-0E27-2F8AEC83A342}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_Angelic Solo Kick_031026		10752208
+	742432173	New Random Music Track_02	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\5B\{5BB98585-3EA6-4627-DC51-B39A7AA24E38}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Random Music Track_02		5990608
+	760187134	New Random Music Track_03	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\6C\{6C81EFFA-68D0-51CD-EDC8-6F0A26BE5FBF}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\New Random Music Track_03		5990608
+	762295927	BlueRuin_MainWorldLoop_v4_100_test1	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\3C\{3C11F71A-8BD7-D4AC-11B2-B2E51583CFB0}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_LOOP\MAIN WORLD_100\BlueRuin_MainWorldLoop_v4_100_test1		28108960
+	781441377	EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\E6\{E6C479F8-CAF3-2E46-78B6-E597FDDA3472}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026		10752208
+	837164649	BlueRuin_MainMenu_v1_100_TRIANGLE	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\8D\{8DE8CBCF-5638-5F75-3A6E-0EEE50FD6C8D}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\BlueRuin_MainMenu_v1_100_TRIANGLE		5990608
+	892030566	EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\D1\{D1523814-004E-31B4-93E7-7F4DEC512821}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026		23459068
+	945841942	BlueRuin_PlayGameSting_v1	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\5C\{5C663CA5-46F4-B3FD-90B1-13E7DA8FDBD1}.wem		\Interactive Music Hierarchy\STINGERS\PLAYGAME\BlueRuin_PlayGameSting_v1\BlueRuin_PlayGameSting_v1		3225808
+	1007081118	EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\DC\{DCA6FB82-62EB-1426-ABCE-939F89514100}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026		10752208
+

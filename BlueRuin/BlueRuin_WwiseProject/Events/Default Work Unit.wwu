@@ -15,6 +15,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{653613B9-5050-4327-A0B1-507B475BA4C2}" ShortID="671437694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_MUSIC" ID="{BAACCC90-D22A-44E2-9D06-3D3103A29E07}">
@@ -60,6 +70,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{607C73FB-226E-4753-BB49-F666EA51F6A7}" ShortID="628639240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PLAY_STING_LEAVECAVE" ID="{3B314837-7A29-4742-8429-B4CEA589D97B}">
@@ -71,6 +91,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LEAVE_CAVE" ID="{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C69FE2CE-6D97-4166-B08D-C88B0F863DB2}" ShortID="87523153">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -95,6 +125,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PLAY_GAME" ID="{D0FF0AE2-C71E-4201-827B-B93B68817C73}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CDADD7EA-8542-41BE-8739-ABE97F8ED5AA}" ShortID="968039903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

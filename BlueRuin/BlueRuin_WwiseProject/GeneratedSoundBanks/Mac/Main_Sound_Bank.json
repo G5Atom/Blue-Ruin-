@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DE4FC0CD-8747-4328-A6A5-83B6612D1126}",
     "Language": "SFX",
-    "Hash": "{C3C3C0A8-C77E-3D35-9E39-783A4057C354}",
+    "Hash": "{D337B5F5-2146-46C9-6B1F-B3E5286ED1B3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Sound_Bank",
     "ShortName": "Main_Sound_Bank",
     "Path": "Main_Sound_Bank.bnk",
@@ -384,6 +384,15 @@
          }
         ]
        }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "2005704188",
+        "Name": "MAIN_MENU",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
+        "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+       }
       ]
      },
      {
@@ -395,6 +404,15 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "1297259595",
+        "Name": "LOWOXYGEN_TODEATH",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\LOWOXYGEN_TODEATH",
+        "GUID": "{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"
+       }
+      ],
       "ActionTrigger": [
        {
         "Id": "1969697111",
@@ -413,6 +431,15 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "3967788281",
+        "Name": "MAIN_LEVEL2_POSTCAVE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL2_POSTCAVE",
+        "GUID": "{8F48926B-420D-4955-B85B-36E37480E614}"
+       }
+      ],
       "ActionTrigger": [
        {
         "Id": "2818521038",
@@ -431,6 +458,15 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "3130520577",
+        "Name": "MAIN_LEVEL",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL",
+        "GUID": "{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"
+       }
+      ],
       "ActionTrigger": [
        {
         "Id": "216639764",
@@ -449,6 +485,15 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "749373321",
+        "Name": "CAVES",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\CAVES",
+        "GUID": "{AE682E5F-3554-4E95-8D1F-818A53AC3123}"
+       }
+      ],
       "ActionTrigger": [
        {
         "Id": "2965502035",
@@ -539,6 +584,6 @@
     ]
    }
   ],
-  "FileHash": "{42465F3D-5F82-C65C-9D08-177FF670C3F6}"
+  "FileHash": "{C6036413-DC93-CA54-A2F0-1AF4E13AA45D}"
  }
 }
