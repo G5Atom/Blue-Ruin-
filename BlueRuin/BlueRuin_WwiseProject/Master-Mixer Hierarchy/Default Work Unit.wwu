@@ -9,6 +9,120 @@
 							<ObjectRef Name="System" ID="{1ACCA1C9-FCC9-4945-A988-BBEE8AC7404A}" WorkUnitID="{A1A89B49-C7E6-4098-A788-8868805C42DC}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Underwater_verb" ID="{0C48CEE7-2ACA-4247-B5B4-6D841FC5C8A6}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GAMEPLAY" ID="{3EA64AE5-5FFA-4234-8520-86A599B8F677}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
+										<CustomState Name="" ID="{3EAF1BDB-0C4A-4AE8-BA0B-5983F8DCAF1C}" ShortID="851846597"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
+										<CustomState Name="" ID="{AC7326AF-4262-4947-A04B-9F10263F2453}" ShortID="29988741"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+										<CustomState Name="" ID="{439F4BB4-17D6-43A0-B04B-7247D5BBCE84}" ShortID="187153585"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
+										<CustomState Name="" ID="{6001C7A8-5336-4938-BF2F-77F1FB850C38}" ShortID="624191438"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
+										<CustomState Name="" ID="{DA0EEFDB-3F3B-42F9-A280-B6AE9D3D5949}" ShortID="686601175"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
+										<CustomState Name="" ID="{B7C2AF97-14A2-4D93-B1B9-A24FAA859113}" ShortID="1053617794"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
+										<CustomState Name="" ID="{B542002C-AB4D-4EDF-83A3-7D81B5B93C80}" ShortID="231142691"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+										<CustomState Name="" ID="{99527DAC-2D22-4C2A-95A2-3DE765016A5B}" ShortID="626687992"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E13789AD-9526-4373-9D5B-16DC0E6E3532}" ShortID="359442435">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
+															<CustomState Name="" ID="{8ACA2300-D727-476C-8E2C-572D22766C5D}" ShortID="974211264"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
+															<CustomState Name="" ID="{570668A4-F6DF-4AF1-9CE2-6BD9EBFB32FF}" ShortID="686088862"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+															<CustomState Name="" ID="{366A31E4-3812-44DA-AAA4-02330F55F607}" ShortID="810476469"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
+															<CustomState Name="" ID="{A8751699-30BF-432C-B958-8DD75F40446A}" ShortID="384775128"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
+															<CustomState Name="" ID="{E938E5FE-C5BB-432B-B460-331E96E523D4}" ShortID="933590427"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
+															<CustomState Name="" ID="{885548B5-9877-43BD-BDE0-E20CB845B8BC}" ShortID="446172822"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
+															<CustomState Name="" ID="{06CAF389-56E9-4923-BDD0-AC14EF764E73}" ShortID="303694935"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+															<CustomState Name="" ID="{5644FC19-CD5A-41B9-844E-99F590D3F1E5}" ShortID="959105474"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="VERB" ID="{A3ACA464-B145-413C-84F8-B4BAE7E0A9AC}">
+							<ReferenceList/>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{861297A6-78C7-48D8-A5B3-5F57CE93BBE1}" ShortID="223155882">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
