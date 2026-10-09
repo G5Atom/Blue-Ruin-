@@ -7,9 +7,14 @@
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendHPF0" Type="int16">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>-21</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -122,15 +127,12 @@
 												</DestinationFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
-										<MusicTransition Name="Transition" ID="{4DF61052-5F1A-4C95-96B3-53847E6A64C4}">
-											<TransitionInfo/>
-										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{63892B15-943C-4D41-B148-831A2C0A896D}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -145,8 +147,7 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{951241CB-D79F-40E6-BA10-916AC5CFE922}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="5"/>
-															<Property Name="FadeTime" Type="Real64" Value="6"/>
+															<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -1403,7 +1404,7 @@
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="-1.08564268685996E-11"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="150000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="2136.38254906246"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="2685.74936590981"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="839.296676846831"/>
 																						<Property Name="PlayAt" Type="Real64" Value="1.08564268685996E-11"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="BlueRuin_MainWorldLoop_v4_100_test1" ID="{70FDF964-5DAC-495D-8DB5-C771D5186144}"/>
@@ -2685,38 +2686,66 @@
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
-								<CustomState Name="" ID="{4D1CD1CF-13F5-4C3B-9B54-91A3E97C1EAF}" ShortID="1035032018"/>
+								<CustomState Name="" ID="{4D1CD1CF-13F5-4C3B-9B54-91A3E97C1EAF}" ShortID="1035032018">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
-								<CustomState Name="" ID="{E66976F7-B87C-4A82-938D-80D21A602C55}" ShortID="862186043"/>
+								<CustomState Name="" ID="{E66976F7-B87C-4A82-938D-80D21A602C55}" ShortID="862186043">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
-								<CustomState Name="" ID="{1D2B3328-4D76-455F-915F-29F9FEA45777}" ShortID="388432101"/>
+								<CustomState Name="" ID="{1D2B3328-4D76-455F-915F-29F9FEA45777}" ShortID="388432101">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
-								<CustomState Name="" ID="{CD3B0423-060B-4F17-8A0C-439D0B54ADD3}" ShortID="148375929"/>
+								<CustomState Name="" ID="{CD3B0423-060B-4F17-8A0C-439D0B54ADD3}" ShortID="148375929">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
-								<CustomState Name="" ID="{CCDA8E56-3040-4403-888A-87683525C0C7}" ShortID="1049477087"/>
+								<CustomState Name="" ID="{CCDA8E56-3040-4403-888A-87683525C0C7}" ShortID="1049477087">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
-								<CustomState Name="" ID="{C7C6CA1F-E10A-43FB-A3FE-C1FFC259ADB5}" ShortID="771810923"/>
+								<CustomState Name="" ID="{C7C6CA1F-E10A-43FB-A3FE-C1FFC259ADB5}" ShortID="771810923">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
-								<CustomState Name="" ID="{D35C9AD1-ABD6-4FEF-8DD7-F18D3FC521CB}" ShortID="475752417"/>
+								<CustomState Name="" ID="{D35C9AD1-ABD6-4FEF-8DD7-F18D3FC521CB}" ShortID="475752417">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
 								<CustomState Name="" ID="{F84D1B36-308A-43C1-B772-2A8B7AB7BDC9}" ShortID="584824255">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16" Value="50"/>
-										<Property Name="Volume" Type="Real64" Value="-10"/>
+										<Property Name="Volume" Type="Real64" Value="-16"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

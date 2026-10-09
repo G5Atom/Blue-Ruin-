@@ -63,6 +63,24 @@
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>
+						<Transition>
+							<StartState Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
+							<EndState Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
+							<EndState Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
+							<EndState Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+							<Time>6</Time>
+							<IsShared>false</IsShared>
+						</Transition>
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="PLAYER_LIFE" ID="{5C3B77E5-19D6-4BDF-B064-59722982BF4F}">
