@@ -5,16 +5,6 @@
 			<ChildrenList>
 				<Event Name="PLAY_STING_DEATH" ID="{67467C75-3CC5-4D11-B94A-F0B5038BE6EC}">
 					<ChildrenList>
-						<Action Name="" ID="{6607B8ED-CEDE-424F-A976-BC5CFB17172B}" ShortID="110264432">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="35"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DEATH_STING" ID="{3F495C9E-EDFB-4B25-BBFA-81F55AB2165F}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{653613B9-5050-4327-A0B1-507B475BA4C2}" ShortID="671437694">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -60,16 +50,6 @@
 				</Event>
 				<Event Name="PLAY_SYING_ENTERCAVE" ID="{4461D1F3-0474-4D76-952F-8A4F99E2D686}">
 					<ChildrenList>
-						<Action Name="" ID="{2E597DBE-52AC-4C62-BD80-DE9FCD3A3D1E}" ShortID="35779101">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="35"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ENTER_CAVE" ID="{9A3222A1-733D-4408-803C-6F47AA2F8756}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{607C73FB-226E-4753-BB49-F666EA51F6A7}" ShortID="628639240">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -84,16 +64,6 @@
 				</Event>
 				<Event Name="PLAY_STING_LEAVECAVE" ID="{3B314837-7A29-4742-8429-B4CEA589D97B}">
 					<ChildrenList>
-						<Action Name="" ID="{99AD0BE2-CF60-4F36-B407-FC38D3E804E9}" ShortID="178449112">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="35"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LEAVE_CAVE" ID="{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}" WorkUnitID="{26277567-4551-43DD-B3E3-D08D5272627F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{C69FE2CE-6D97-4166-B08D-C88B0F863DB2}" ShortID="87523153">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -135,6 +105,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_TEMPLE" ID="{C87227ED-EB1F-4719-BF7B-BA8AD82D534A}">
+					<ChildrenList>
+						<Action Name="" ID="{CD4E461C-C8C4-496A-8E25-9C3B80DA5133}" ShortID="378904430">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

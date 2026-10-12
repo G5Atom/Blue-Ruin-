@@ -6,6 +6,17 @@
 				<MusicSwitchContainer Name="MUSIC" ID="{84ACF3CB-3BE4-413F-8EFE-4137F5DFFC1B}" ShortID="1029253424">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendHPF0" Type="int16">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-19</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -66,7 +77,7 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{D740A787-6AB5-43BE-B7DD-591C817F3EA8}">
 														<PropertyList>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -74,8 +85,8 @@
 												<DestinationFadeIn>
 													<MusicFade Name="Destination Fade-in" ID="{CD809C47-02CF-47BC-928F-6081FCFA3FC5}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="-2"/>
-															<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-4"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>
@@ -109,8 +120,8 @@
 												<DestinationFadeIn>
 													<MusicFade Name="Destination Fade-in" ID="{9C7E799D-115A-4B68-A77E-CFBFF61D0D88}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="-3"/>
-															<Property Name="FadeTime" Type="Real64" Value="3"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-4"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>
@@ -136,7 +147,7 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{951241CB-D79F-40E6-BA10-916AC5CFE922}">
 														<PropertyList>
-															<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -145,7 +156,7 @@
 													<MusicFade Name="Destination Fade-in" ID="{36F2C0CF-AB76-4C39-834F-98F347D630DF}">
 														<PropertyList>
 															<Property Name="FadeOffset" Type="Real64" Value="-4"/>
-															<Property Name="FadeTime" Type="Real64" Value="4"/>
+															<Property Name="FadeTime" Type="Real64" Value="5"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>
@@ -255,6 +266,9 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</Custom>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="VERB" ID="{A3ACA464-B145-413C-84F8-B4BAE7E0A9AC}" WorkUnitID="{F729FABB-A25F-4B3F-A199-2DB39AB6686E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1282,6 +1296,10 @@
 										<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
 										<CustomState Name="" ID="{9CC0D66D-95F7-4D73-9799-0104DE65EF36}" ShortID="853640072"/>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+										<CustomState Name="" ID="{95732021-883C-4096-8C25-74A108631248}" ShortID="726788345"/>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 						</MusicPlaylistContainer>
@@ -1386,7 +1404,7 @@
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="-1.08564268685996E-11"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="150000"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="2136.38254906246"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="2685.74936590981"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="839.296676846831"/>
 																						<Property Name="PlayAt" Type="Real64" Value="1.08564268685996E-11"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="BlueRuin_MainWorldLoop_v4_100_test1" ID="{70FDF964-5DAC-495D-8DB5-C771D5186144}"/>
@@ -1398,7 +1416,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>-0</XPos>
+																										<XPos>0</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -1417,7 +1435,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>-0</XPos>
+																										<XPos>0</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -1436,7 +1454,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>-0</XPos>
+																										<XPos>0</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -1528,6 +1546,10 @@
 									<CustomState>
 										<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
 										<CustomState Name="" ID="{2412696B-3EE8-4002-8D31-7C8ADFB925AA}" ShortID="431552441"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+										<CustomState Name="" ID="{38A5859B-C4D3-4080-8E18-BD4E84AFAE92}" ShortID="429377063"/>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -2649,6 +2671,13 @@
 						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="UserAuxSendHPF0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo MusicSyncType="2">
 								<StateGroupRef Name="GAMEPLAY" ID="{3EA64AE5-5FFA-4234-8520-86A599B8F677}"/>
@@ -2657,31 +2686,68 @@
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}"/>
-								<CustomState Name="" ID="{4D1CD1CF-13F5-4C3B-9B54-91A3E97C1EAF}" ShortID="1035032018"/>
+								<CustomState Name="" ID="{4D1CD1CF-13F5-4C3B-9B54-91A3E97C1EAF}" ShortID="1035032018">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="None" ID="{1D031D13-A11F-4947-9818-FC59D2A4581C}"/>
-								<CustomState Name="" ID="{E66976F7-B87C-4A82-938D-80D21A602C55}" ShortID="862186043"/>
+								<CustomState Name="" ID="{E66976F7-B87C-4A82-938D-80D21A602C55}" ShortID="862186043">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
-								<CustomState Name="" ID="{1D2B3328-4D76-455F-915F-29F9FEA45777}" ShortID="388432101"/>
+								<CustomState Name="" ID="{1D2B3328-4D76-455F-915F-29F9FEA45777}" ShortID="388432101">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
-								<CustomState Name="" ID="{CD3B0423-060B-4F17-8A0C-439D0B54ADD3}" ShortID="148375929"/>
+								<CustomState Name="" ID="{CD3B0423-060B-4F17-8A0C-439D0B54ADD3}" ShortID="148375929">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="MAIN_MENU" ID="{18369A56-B4C8-4D0B-8E92-FABA11558D79}"/>
-								<CustomState Name="" ID="{CCDA8E56-3040-4403-888A-87683525C0C7}" ShortID="1049477087"/>
+								<CustomState Name="" ID="{CCDA8E56-3040-4403-888A-87683525C0C7}" ShortID="1049477087">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="CAVES" ID="{AE682E5F-3554-4E95-8D1F-818A53AC3123}"/>
-								<CustomState Name="" ID="{C7C6CA1F-E10A-43FB-A3FE-C1FFC259ADB5}" ShortID="771810923"/>
+								<CustomState Name="" ID="{C7C6CA1F-E10A-43FB-A3FE-C1FFC259ADB5}" ShortID="771810923">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="LOWOXYGEN_TODEATH" ID="{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"/>
-								<CustomState Name="" ID="{D35C9AD1-ABD6-4FEF-8DD7-F18D3FC521CB}" ShortID="475752417"/>
+								<CustomState Name="" ID="{D35C9AD1-ABD6-4FEF-8DD7-F18D3FC521CB}" ShortID="475752417">
+									<PropertyList>
+										<Property Name="UserAuxSendHPF0" Type="int16" Value="100"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+								<CustomState Name="" ID="{F84D1B36-308A-43C1-B772-2A8B7AB7BDC9}" ShortID="584824255">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
+										<Property Name="Volume" Type="Real64" Value="-16"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
@@ -2794,6 +2860,24 @@
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="NO_MUSIC" ID="{2484A9C1-3608-43C9-B252-EA3C35ABADD8}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{6C21DBF0-19D9-43E5-BE47-BE237A26656C}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MAIN_LOOP" ID="{938A7F97-BC93-4C8E-9DC8-B7112C38001E}" WorkUnitID="{096344C0-5CC6-4563-A40D-B4B270AACEE5}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>
