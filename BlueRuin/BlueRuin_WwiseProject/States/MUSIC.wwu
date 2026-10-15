@@ -66,7 +66,7 @@
 						<Transition>
 							<StartState Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
 							<EndState Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
-							<Time>3</Time>
+							<Time>6</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
@@ -78,6 +78,12 @@
 						<Transition>
 							<StartState Name="MAIN_LEVEL2_POSTCAVE" ID="{8F48926B-420D-4955-B85B-36E37480E614}"/>
 							<EndState Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+							<Time>6</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"/>
+							<EndState Name="MAIN_LEVEL" ID="{C109CEB0-8493-4C8A-B727-BBEE43767DF1}"/>
 							<Time>6</Time>
 							<IsShared>false</IsShared>
 						</Transition>
