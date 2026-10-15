@@ -46,6 +46,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D8A695FA-9F5C-445E-A5B5-EFFDC721EC7E}" ShortID="604538306">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ocean Atmos" ID="{D747763A-5A6B-4F1A-9868-1F7F070EBE17}" WorkUnitID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="PLAY_SYING_ENTERCAVE" ID="{4461D1F3-0474-4D76-952F-8A4F99E2D686}">
@@ -119,6 +126,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="TEMPLE" ID="{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}" WorkUnitID="{E6E57D5B-8334-42BB-B8BB-75800D93FA2E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAYER_BREATH" ID="{009DB624-D83C-4E4E-B924-478151A84AF9}">
+					<ChildrenList>
+						<Action Name="" ID="{8F3B9F28-D5D2-402A-952E-DBA7265966BA}" ShortID="327280526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breathing" ID="{24A61627-5019-4233-AE6C-BF64CF09823C}" WorkUnitID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLAY_PICKUP" ID="{136D0FC0-FB4D-4D89-84EE-B9AD27D1514E}">
+					<ChildrenList>
+						<Action Name="" ID="{ACE0F5FA-FA0C-4709-AD8D-5BD1A7CCE917}" ShortID="240541920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{D7E11E94-EDE6-4CBF-A6DA-93406D6759B5}" WorkUnitID="{1ADC6D92-56F3-494E-9B66-BC95C5465665}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

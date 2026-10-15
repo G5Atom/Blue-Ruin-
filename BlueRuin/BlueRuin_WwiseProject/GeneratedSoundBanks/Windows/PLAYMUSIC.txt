@@ -10,6 +10,7 @@ State	ID	Name	State Group			Notes
 	749373321	CAVES	GAMEPLAY			
 	1297259595	LOWOXYGEN_TODEATH	GAMEPLAY			
 	2005704188	MAIN_MENU	GAMEPLAY			
+	2323193050	TEMPLE	GAMEPLAY			
 	3130520577	MAIN_LEVEL	GAMEPLAY			
 	3767268120	NO_MUSIC	GAMEPLAY			
 	3967788281	MAIN_LEVEL2_POSTCAVE	GAMEPLAY			
@@ -46,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	762295927	BlueRuin_MainWorldLoop_v4_100_test1	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\3C\{3C11F71A-8BD7-D4AC-11B2-B2E51583CFB0}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_LOOP\MAIN WORLD_100\BlueRuin_MainWorldLoop_v4_100_test1		28108960
 	781441377	EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\E6\{E6C479F8-CAF3-2E46-78B6-E597FDDA3472}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_DRONES_031026		10752208
 	837164649	BlueRuin_MainMenu_v1_100_TRIANGLE	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\8D\{8DE8CBCF-5638-5F75-3A6E-0EEE50FD6C8D}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\MAIN_MENU\MAIN MENU_100\BlueRuin_MainMenu_v1_100_TRIANGLE		5990608
+	856861957	Ocean Atmos	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\AC\{ACEA8CCE-1842-31EF-A341-9E1987AE22A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmos\Ocean Atmos		26148960
 	892030566	EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\D1\{D1523814-004E-31B4-93E7-7F4DEC512821}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\CAVES\EM_BlueRuin_MX_CaveDiving_var1_STEMS\EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026		23459068
 	945841942	BlueRuin_PlayGameSting_v1	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\5C\{5C663CA5-46F4-B3FD-90B1-13E7DA8FDBD1}.wem		\Interactive Music Hierarchy\STINGERS\PLAYGAME\BlueRuin_PlayGameSting_v1\BlueRuin_PlayGameSting_v1		3225808
 	1007081118	EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026	C:\Users\harry.osullivan\Documents\GitHub\Blue-Ruin-\BlueRuin\BlueRuin_WwiseProject\.cache\DC\{DCA6FB82-62EB-1426-ABCE-939F89514100}.wem		\Interactive Music Hierarchy\MUSIC\MUSIC\LOWOXYGEN_TODEATH\EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\EM_BlueRuin_MX_LowOxygen-Death_STEMS_OMNISPHERE_031026		10752208

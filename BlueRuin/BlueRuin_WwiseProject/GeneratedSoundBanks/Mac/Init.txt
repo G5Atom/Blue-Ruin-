@@ -7,6 +7,7 @@ State	ID	Name	State Group			Notes
 	749373321	CAVES	GAMEPLAY			
 	1297259595	LOWOXYGEN_TODEATH	GAMEPLAY			
 	2005704188	MAIN_MENU	GAMEPLAY			
+	2323193050	TEMPLE	GAMEPLAY			
 	3130520577	MAIN_LEVEL	GAMEPLAY			
 	3767268120	NO_MUSIC	GAMEPLAY			
 	3967788281	MAIN_LEVEL2_POSTCAVE	GAMEPLAY			
@@ -15,7 +16,14 @@ State	ID	Name	State Group			Notes
 	2791675679	Defeated	PLAYER_LIFE			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	435295946	Underwater_verb			\Default Work Unit\Master Audio Bus\Underwater_verb	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3657263530	VERB			\Default Work Unit\Master Audio Bus\VERB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2662085913	Large_Church1	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

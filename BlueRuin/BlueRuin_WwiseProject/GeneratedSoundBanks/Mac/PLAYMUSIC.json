@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{0AC7F81B-2422-4DE0-9765-B38752D3BB49}",
     "Language": "SFX",
-    "Hash": "{8CDB96F0-B0D6-6F68-AE0B-32A148D6276C}",
+    "Hash": "{43F8B6FA-832D-610B-54EA-ED8C66F87D30}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PLAYMUSIC",
     "ShortName": "PLAYMUSIC",
     "Path": "PLAYMUSIC.bnk",
@@ -216,6 +216,14 @@
       "CachePath": "8D/{8DE8CBCF-5638-5F75-3A6E-0EEE50FD6C8D}.wem"
      },
      {
+      "Id": "856861957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Deep underwater ambience .wav",
+      "CachePath": "AC/{ACEA8CCE-1842-31EF-A341-9E1987AE22A6}.wem"
+     },
+     {
       "Id": "892030566",
       "Language": "SFX",
       "Streaming": "false",
@@ -258,7 +266,18 @@
         "Id": "686998284"
        },
        {
+        "Id": "856861957"
+       },
+       {
         "Id": "945841942"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3657263530",
+        "Name": "VERB",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\VERB",
+        "GUID": "{A3ACA464-B145-413C-84F8-B4BAE7E0A9AC}"
        }
       ],
       "SwitchContainers": [
@@ -383,6 +402,19 @@
           "Id": "322077818"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "2323193050",
+         "GUID": "{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "762295927"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -455,6 +487,12 @@
         "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
        },
        {
+        "Id": "2323193050",
+        "Name": "TEMPLE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\TEMPLE",
+        "GUID": "{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"
+       },
+       {
         "Id": "3130520577",
         "Name": "MAIN_LEVEL",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL",
@@ -503,6 +541,6 @@
     ]
    }
   ],
-  "FileHash": "{28DAECA3-E5E9-28D8-EB1F-AD58FCCDD478}"
+  "FileHash": "{888BEA4E-98E1-3868-47F8-F7F5B84CB174}"
  }
 }

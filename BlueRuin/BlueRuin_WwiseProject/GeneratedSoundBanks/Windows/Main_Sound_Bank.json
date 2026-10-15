@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DE4FC0CD-8747-4328-A6A5-83B6612D1126}",
     "Language": "SFX",
-    "Hash": "{D337B5F5-2146-46C9-6B1F-B3E5286ED1B3}",
+    "Hash": "{FF4AD631-30EA-952A-2B2C-335DF2BC3611}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Sound_Bank",
     "ShortName": "Main_Sound_Bank",
     "Path": "Main_Sound_Bank.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "EM_BlueRuin_MX_LowOxygen_Loop_STEMS_BurnedinSting\\EM_BlueRuin_MX_LowOxygen-Death_STEMS_BASS_SYNTHS_031026.wav",
       "CachePath": "7D/{7D902048-EEC2-CF1F-C54E-94DAB9D8F872}.wem"
+     },
+     {
+      "Id": "148718810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breathing Calm-04.wav",
+      "CachePath": "C8/{C803D878-6104-D79E-2C07-BC540BBF145D}.wem"
      },
      {
       "Id": "151339422",
@@ -72,12 +80,28 @@
       "CachePath": "FD/{FDC62A64-358B-1009-1CEA-30A414A488F6}.wem"
      },
      {
+      "Id": "263542778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cup pick up 1.wav",
+      "CachePath": "E7/{E7C55290-A40B-0987-D78F-193D10A60D06}.wem"
+     },
+     {
       "Id": "280954489",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MAIN MENU_100\\BlueRuin_MainMenu_v1_100_INDIAN PERC.wav",
       "CachePath": "56/{5618F1A7-51CB-6A13-23EE-FB276D25BACE}.wem"
+     },
+     {
+      "Id": "286217657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin pick up 2.wav",
+      "CachePath": "D5/{D5E5787A-CDA0-F2B3-C80F-968209DEA9EA}.wem"
      },
      {
       "Id": "301639324",
@@ -104,6 +128,14 @@
       "CachePath": "4A/{4AB26325-0C0E-BCEC-91C0-10BF3CFA8989}.wem"
      },
      {
+      "Id": "334781743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breathing Calm-01.wav",
+      "CachePath": "08/{08C6B924-165A-0445-07B1-4395A853A511}.wem"
+     },
+     {
       "Id": "358567247",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,6 +150,14 @@
       "Location": "Memory",
       "ShortName": "EM_BlueRuin_MX_TranstoCave_270926.wav",
       "CachePath": "45/{4517A73D-B834-00CA-D090-D90ED9F187D9}.wem"
+     },
+     {
+      "Id": "449137300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Object pick up 1.wav",
+      "CachePath": "F8/{F86F7FB2-3D4A-CBF9-0688-E9EC0E68F4E7}.wem"
      },
      {
       "Id": "462951726",
@@ -144,12 +184,52 @@
       "CachePath": "21/{2149B9BE-C302-3FC3-7384-EA624DA62743}.wem"
      },
      {
+      "Id": "497215160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breathing Fast-01.wav",
+      "CachePath": "2D/{2D936DB6-18E6-D743-4C3D-A4C2C2C99C7C}.wem"
+     },
+     {
       "Id": "541749331",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_VOX_031026.wav",
       "CachePath": "DC/{DCF498AB-49BC-EA23-063C-C8391C192570}.wem"
+     },
+     {
+      "Id": "575919668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin pick up 4.wav",
+      "CachePath": "6C/{6CD44227-2BF4-494C-2E57-D5102612842D}.wem"
+     },
+     {
+      "Id": "607751132",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Breathing Calm-03.wav",
+      "CachePath": "69/{6914DC9C-4A79-3166-EEA7-9954E7B92712}.wem"
+     },
+     {
+      "Id": "620794636",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin pick up.wav",
+      "CachePath": "EB/{EB01EE25-D6AA-A722-E2C0-68AC5A67E769}.wem"
+     },
+     {
+      "Id": "639910579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin pick up 3.wav",
+      "CachePath": "A6/{A64D4B79-07A5-9719-E132-FA19ED331D38}.wem"
      },
      {
       "Id": "660132397",
@@ -200,6 +280,14 @@
       "CachePath": "3C/{3C11F71A-8BD7-D4AC-11B2-B2E51583CFB0}.wem"
      },
      {
+      "Id": "773911385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cup pick up 2.wav",
+      "CachePath": "46/{466E146D-8431-DE78-A343-1DFAD418E42C}.wem"
+     },
+     {
       "Id": "781441377",
       "Language": "SFX",
       "Streaming": "false",
@@ -216,12 +304,28 @@
       "CachePath": "8D/{8DE8CBCF-5638-5F75-3A6E-0EEE50FD6C8D}.wem"
      },
      {
+      "Id": "856861957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Deep underwater ambience .wav",
+      "CachePath": "AC/{ACEA8CCE-1842-31EF-A341-9E1987AE22A6}.wem"
+     },
+     {
       "Id": "892030566",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "EM_BlueRuin_MX_CaveDiving_var1_STEMS\\EM_BlueRuin_MX_CaveDiving_var1_STEMS_DRONES_031026.wav",
       "CachePath": "D1/{D1523814-004E-31B4-93E7-7F4DEC512821}.wem"
+     },
+     {
+      "Id": "893508910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "object pick up 2.wav",
+      "CachePath": "06/{067C4161-6892-930C-2AFD-A3C11AB1BEA5}.wem"
      },
      {
       "Id": "945841942",
@@ -258,7 +362,18 @@
         "Id": "686998284"
        },
        {
+        "Id": "856861957"
+       },
+       {
         "Id": "945841942"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3657263530",
+        "Name": "VERB",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\VERB",
+        "GUID": "{A3ACA464-B145-413C-84F8-B4BAE7E0A9AC}"
        }
       ],
       "SwitchContainers": [
@@ -383,6 +498,19 @@
           "Id": "322077818"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "89505537",
+         "Id": "2323193050",
+         "GUID": "{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "762295927"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -392,6 +520,41 @@
         "Name": "MAIN_MENU",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
         "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+       }
+      ]
+     },
+     {
+      "Id": "3860455926",
+      "Name": "PLAY_PICKUP",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAY_PICKUP",
+      "GUID": "{136D0FC0-FB4D-4D89-84EE-B9AD27D1514E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24266666",
+      "DurationMax": "0.7300208",
+      "MediaRefs": [
+       {
+        "Id": "263542778"
+       },
+       {
+        "Id": "286217657"
+       },
+       {
+        "Id": "449137300"
+       },
+       {
+        "Id": "575919668"
+       },
+       {
+        "Id": "620794636"
+       },
+       {
+        "Id": "639910579"
+       },
+       {
+        "Id": "773911385"
+       },
+       {
+        "Id": "893508910"
        }
       ]
      },
@@ -412,14 +575,6 @@
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\LOWOXYGEN_TODEATH",
         "GUID": "{56FBB2E8-157F-4F73-84C9-C4B5442E0C5F}"
        }
-      ],
-      "ActionTrigger": [
-       {
-        "Id": "1969697111",
-        "Name": "DEATH_STING",
-        "ObjectPath": "\\Triggers\\MUSIC\\DEATH_STING",
-        "GUID": "{3F495C9E-EDFB-4B25-BBFA-81F55AB2165F}"
-       }
       ]
      },
      {
@@ -438,14 +593,6 @@
         "Name": "MAIN_LEVEL2_POSTCAVE",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_LEVEL2_POSTCAVE",
         "GUID": "{8F48926B-420D-4955-B85B-36E37480E614}"
-       }
-      ],
-      "ActionTrigger": [
-       {
-        "Id": "2818521038",
-        "Name": "LEAVE_CAVE",
-        "ObjectPath": "\\Triggers\\MUSIC\\LEAVE_CAVE",
-        "GUID": "{BF8EEBCA-94D0-4616-9EA1-1EE062C40AEB}"
        }
       ]
      },
@@ -493,13 +640,28 @@
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\CAVES",
         "GUID": "{AE682E5F-3554-4E95-8D1F-818A53AC3123}"
        }
-      ],
-      "ActionTrigger": [
+      ]
+     },
+     {
+      "Id": "314259375",
+      "Name": "PLAYER_BREATH",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER_BREATH",
+      "GUID": "{009DB624-D83C-4E4E-B924-478151A84AF9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6666667",
+      "DurationMax": "4.9066668",
+      "MediaRefs": [
        {
-        "Id": "2965502035",
-        "Name": "ENTER_CAVE",
-        "ObjectPath": "\\Triggers\\MUSIC\\ENTER_CAVE",
-        "GUID": "{9A3222A1-733D-4408-803C-6F47AA2F8756}"
+        "Id": "148718810"
+       },
+       {
+        "Id": "334781743"
+       },
+       {
+        "Id": "497215160"
+       },
+       {
+        "Id": "607751132"
        }
       ]
      }
@@ -534,6 +696,12 @@
         "Name": "MAIN_MENU",
         "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\MAIN_MENU",
         "GUID": "{18369A56-B4C8-4D0B-8E92-FABA11558D79}"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "TEMPLE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\TEMPLE",
+        "GUID": "{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"
        },
        {
         "Id": "3130520577",
@@ -584,6 +752,6 @@
     ]
    }
   ],
-  "FileHash": "{BB2EBC8D-AEF8-1B31-8C0C-7950BDB71157}"
+  "FileHash": "{EE520F29-9D21-DA19-91E9-5993FA4A6B91}"
  }
 }
