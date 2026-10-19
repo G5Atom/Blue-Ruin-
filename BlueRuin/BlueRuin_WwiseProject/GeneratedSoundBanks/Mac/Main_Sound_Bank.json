@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DE4FC0CD-8747-4328-A6A5-83B6612D1126}",
     "Language": "SFX",
-    "Hash": "{FF4AD631-30EA-952A-2B2C-335DF2BC3611}",
+    "Hash": "{3CF3D2EE-7443-7BD3-60BE-077A4CB85B82}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Sound_Bank",
     "ShortName": "Main_Sound_Bank",
     "Path": "Main_Sound_Bank.bnk",
@@ -643,6 +643,25 @@
       ]
      },
      {
+      "Id": "1732432765",
+      "Name": "PLAY_TEMPLE",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAY_TEMPLE",
+      "GUID": "{C87227ED-EB1F-4719-BF7B-BA8AD82D534A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "89505537",
+        "Id": "2323193050",
+        "Name": "TEMPLE",
+        "ObjectPath": "\\States\\Default Work Unit\\MUSIC\\GAMEPLAY\\TEMPLE",
+        "GUID": "{DCB134B9-A149-4FCC-81B4-EA9804F19CDA}"
+       }
+      ]
+     },
+     {
       "Id": "314259375",
       "Name": "PLAYER_BREATH",
       "ObjectPath": "\\Events\\Default Work Unit\\PLAYER_BREATH",
@@ -752,6 +771,6 @@
     ]
    }
   ],
-  "FileHash": "{EB037242-19E1-1410-A8C2-FC258DACC40D}"
+  "FileHash": "{F2FCFF7A-F469-E047-1FA7-D260648FFC95}"
  }
 }
